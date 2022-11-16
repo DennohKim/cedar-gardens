@@ -11,10 +11,10 @@ module.exports = {
       'cormorant': ['Cormorant Garamond','serif'],
     },
     height: {
-      '128': '572px'
+      '128': '400px'
     },
     width: {
-      '128': '424px'
+      '128': '324px'
     }
   },
   plugins: [],
