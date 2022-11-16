@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'jost': ['Jost','sans-serif'],
+      'dancing': ['Dancing Script', 'cursive'],
+      'cormorant': ['Cormorant Garamond','serif'],
+    },
   },
   plugins: [],
 }
