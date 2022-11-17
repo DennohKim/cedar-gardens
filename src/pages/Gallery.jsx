@@ -29,8 +29,35 @@ const Gallery = () => {
      {/* create a div to hold the tabs content */}
      <div className=''>
     <div className={toggletab===1 ? 'block': 'hidden'}>
-    <div >
-
+    <div className='sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-2 lg:gap-8'>
+        <div className='grid grid-cols-2 gap-4  '>
+            <div className=''>
+                <img className='h-full w-full' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135112/Cedar%20Hotel/Edited/IMG_7158_kxazn0.jpg' alt='garden'/>
+            </div>
+            <div className='h-full'>
+                <img className='h-full'src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135337/Cedar%20Hotel/Edited/IMG_2827_hxfhio.jpg' alt='Garden' />
+            </div>
+            <div className='col-span-2 h-3/5 w-full'>
+                <img className='h-full w-full' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg' alt='garden images'/>
+            </div>
+        </div>
+        <div className='h-3/4'>
+        <img className='h-full w-full' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg' alt='garden ' /> 
+        </div>
+        <div>
+            <img src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg' alt='garden images' />
+        </div>
+        <div className='grid grid-cols-2 gap-2'>
+          <div>
+             <img className='h-full' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135354/Cedar%20Hotel/Edited/IMG_7099_fph3oo.jpg' alt='indiginous trees'/>
+          </div>
+          <div>
+            <img className='h-full' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg' alt='beautiful terrain'/>
+          </div>
+          <div className='col-span-2 h-1/2'>
+            <img className='h-full w-full' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg' alt='gardens'/>
+          </div>
+        </div>
     </div>
         
     </div>
