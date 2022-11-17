@@ -24,9 +24,19 @@ const LandingPage = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="w-[100%] bg-gray-900">2</div>
+            <div className="border-l border-l-gray-700 pl-8 p-4 text-left mt-4">
+<p>“We have got the best Restaurant in town. The hotel is a must see. The swimming pool and garden are beautiful. We are a well-established and reputable caterer, hotel, conference center and wedding venue. We offer a professional service for everyone. Our main goal is to provide our clients with the very best service and experience possible.”
 
+</p>
+<p className="font-bold text-1xl pt-4">Lorem Ipsum</p>
+<p className="text-1xl pt-2">Hotel Manager</p>
+
+            </div>
+          </div>
+          <div className="w-[100%] justify-center items-center align-center">
+<img className=" " src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"/>
+
+          </div>
         </div>
       </div>
     </div>
