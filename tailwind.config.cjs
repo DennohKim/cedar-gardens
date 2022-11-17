@@ -10,12 +10,12 @@ module.exports = {
       'dancing': ['Dancing Script', 'cursive'],
       'cormorant': ['Cormorant Garamond','serif'],
     },
-    height: {
-      '128': '400px'
-    },
-    width: {
-      '128': '324px'
-    }
+     screens: {
+     'sm': '500px',
+     'md': '768px',
+     'lg': '1024px',
+     'xl': '1280px'
+     }
   },
   plugins: [],
 }
