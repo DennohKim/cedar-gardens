@@ -1,11 +1,11 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
   return (
     <>
-      <div className="font-jost font-bold text-3xl">LandingPage</div>
-      <div className="font-dancing">LandingPage</div>
-      <div className="font-cormorant">LandingPage</div>
+     <Navbar/>
+      
   
     </>
   );

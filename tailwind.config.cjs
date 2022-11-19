@@ -9,7 +9,13 @@ module.exports = {
       'jost': ['Jost','sans-serif'],
       'dancing': ['Dancing Script', 'cursive'],
       'cormorant': ['Cormorant Garamond','serif'],
-      'clockwise': ['Clockwise','sans-serif']
+
+    },
+    colors: {
+      'primary-color': '#287216',
+      'button-gray': '#D9D9D9',
+      
+
     },
   },
   plugins: [],
