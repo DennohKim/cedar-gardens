@@ -9,6 +9,7 @@ module.exports = {
       'jost': ['Jost','sans-serif'],
       'dancing': ['Dancing Script', 'cursive'],
       'cormorant': ['Cormorant Garamond','serif'],
+      'clockwise': ['Clockwise','sans-serif']
     },
   },
   plugins: [],
