@@ -48,20 +48,15 @@ const LandingPage = () => {
         relative
         lg:absolute 
         md:relative
-       
         sm:bottom-     
         left-1/2 
-    
-      
-
-
         lg:bottom-[-300px] 
         md:transform 
         -translate-x-1/2  
         lg:flex
         flex-ro 
         mt-8 
-        flex-cols-1 
+        flex-cols-4 
         gap-0 
         justify-center 
         align-center 
@@ -72,8 +67,36 @@ const LandingPage = () => {
             <p className="pt-[6%] font-semibold-600">Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar posuere tellus erat quisque</p>
             <button className="p-5 mt-[6%] uppercase w-[80%] bg-gray-300 tracking-widest">Learn More</button>
           </div>
-          <div className=" h-[400px] md:w-[10 0%] lg:w-[400px] bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center">
+          <div className=" h-[400px] md:w-[10 0%] lg:w-[70%] bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center">
 
+          </div>
+       
+        </div> <div className="
+        relative
+        lg:absolute 
+        md:relative
+
+        sm:bottom-     
+        left-1/2 
+        lg:bottom-[-700px] 
+        md:transform 
+        -translate-x-1/2  
+        lg:flex
+        flex-ro 
+       
+        flex-cols-1 
+        gap-0 
+        justify-center 
+        align-center 
+        items" >
+         
+          <div className="  lg:h-[400px] md:w-[100%] lg:w-[70%] bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135191/Cedar%20Hotel/Edited/IMG_2717_tci4ez.jpg')]  bg-cover bg-center">
+
+          </div>
+          <div className=" lg:h-[400px] md:h-[100%] bg-white lg:w-[70%] md:w-[100%] sm:w-[100%] mb-10 items-center text-center justify-center block">
+            <p className="inline-block align-middle mt-[15%] uppercase text-3xl font-bold font-cormorant">Party Events</p><br />
+            <p className="pt-[6%] font-semibold-600">Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar posuere tellus erat quisque</p>
+            <button className="p-5 mt-[6%] uppercase w-[80%] bg-gray-300 tracking-widest">Learn More</button>
           </div>
         </div>
         {/* <div className="
