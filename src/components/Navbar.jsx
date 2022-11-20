@@ -11,8 +11,8 @@ const Navbar = () => {
   let normalLink = "hover:opacity-50";
 
   return (
-    <header className="w-full">
-      <div className="flex flex-col w-4/5 mx-auto justify-between  font-jost">
+    <header className="w-full pt-10">
+      <div className="flex flex-col w-11/12 mx-auto justify-between  font-jost">
         <div className="flex justify-between pb-6 ">
           <div className="flex flex-col text-left gap-3">
             <div>
@@ -34,10 +34,10 @@ const Navbar = () => {
           <div>
             <img src={Logo} alt="Logo" />
           </div>
-          <div className="flex justify-between gap-4">
-            <FaFacebook color="#287216" />
-            <FaTiktok color="#287216" />
-            <AiFillInstagram color="#287216" />
+          <div className="flex justify-between gap-8">
+            <FaFacebook color="#287216"  fontSize="1.5em"  />
+            <FaTiktok color="#287216"  fontSize="1.5em" />
+            <AiFillInstagram color="#287216"  fontSize="1.5em"  />
           </div>
         </div>
 
@@ -45,11 +45,9 @@ const Navbar = () => {
 
         <div className="flex mx-auto pt-6">
           <nav>
-            <ul class="flex items-center justify-center ">
-              <li class="relative group px-3 py-2">
-                {/* <button class="hover:opacity-50 cursor-default">
-                  Products
-                </button> */}
+            <ul className="flex items-center justify-center xl:text-lg lg:text-lg md:text-base">
+              <li className="relative group px-3 py-2">
+               
                 <NavLink
                   to="/"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -58,10 +56,8 @@ const Navbar = () => {
                   HOME
                 </NavLink>
               </li>
-              <li class="relative group px-3 py-2">
-                {/* <button class="hover:opacity-50 cursor-default">
-                  Products
-                </button> */}
+              <li className="relative group px-3 py-2">
+               
                 <NavLink
                   to="/aboutus"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -70,7 +66,7 @@ const Navbar = () => {
                   ABOUT US
                 </NavLink>
               </li>
-              <li class="relative group px-3 py-2">
+              <li className="relative group px-3 py-2">
                 <NavLink
                   to="/services"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -78,15 +74,15 @@ const Navbar = () => {
                 >
                   SERVICES
                 </NavLink>
-                <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
-                  <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
-                    <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
-                    <div class="relative z-10">
-                      <ul class="mt-4 flex flex-col align-items-center gap-2 text-left text-gray-800 divide-y divide-gray-300">
+                <div className="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+                  <div className="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                    <div className="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                    <div className="relative z-10">
+                      <ul className="mt-4 flex flex-col align-items-center gap-2 text-left text-gray-800 divide-y divide-gray-300">
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             RESTAURANT AND BAR
                           </a>
@@ -94,7 +90,7 @@ const Navbar = () => {
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             KIDS PLAYGROUND
                           </a>
@@ -102,7 +98,7 @@ const Navbar = () => {
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             SWIMMING
                           </a>
@@ -110,7 +106,7 @@ const Navbar = () => {
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             MEETINGS
                           </a>
@@ -118,7 +114,7 @@ const Navbar = () => {
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             EVENTS
                           </a>
@@ -126,7 +122,7 @@ const Navbar = () => {
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             ACCOMODATION
                           </a>
@@ -134,7 +130,7 @@ const Navbar = () => {
                         <li>
                           <a
                             href="#"
-                            class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
+                            className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             PHOTOGRAPHY
                           </a>
@@ -144,7 +140,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li class="relative group px-3 py-2">
+              <li className="relative group px-3 py-2">
                 <NavLink
                   to="/gallery"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -152,7 +148,7 @@ const Navbar = () => {
                   GALLERY
                 </NavLink>
               </li>
-              <li class="relative group px-3 py-2">
+              <li className="relative group px-3 py-2">
                 <NavLink
                   to="/location"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -160,7 +156,7 @@ const Navbar = () => {
                   LOCATION
                 </NavLink>
               </li>
-              <li class="relative group px-3 py-2">
+              <li className="relative group px-3 py-2">
                 <NavLink
                   to="/contactus"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -170,65 +166,6 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-
-          {/* <nav >
-            <ul className="flex mr-4 text-center display-block">
-              <li>
-                <NavLink
-                  to="/"
-                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                >
-                  HOME
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="aboutus"
-                  className={({ isActive }) =>
-                    isActive ? activeClassName : undefined
-                  }
-                >
-                  ABOUT US
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="services">
-                  {({ isActive }) => (
-                    <span className={isActive ? activeClassName : undefined}>
-                      SERVICES
-                    </span>
-                  )}
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="gallery">
-                  {({ isActive }) => (
-                    <span className={isActive ? activeClassName : undefined}>
-                      GALLERY
-                    </span>
-                  )}
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="location">
-                  {({ isActive }) => (
-                    <span className={isActive ? activeClassName : undefined}>
-                      LOCATION
-                    </span>
-                  )}
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="contactus">
-                  {({ isActive }) => (
-                    <span className={isActive ? activeClassName : undefined}>
-                      CONTACT US
-                    </span>
-                  )}
-                </NavLink>
-              </li>
-            </ul>
-          </nav> */}
         </div>
       </div>
     </header>

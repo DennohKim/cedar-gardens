@@ -14,6 +14,9 @@ module.exports = {
     colors: {
       'primary-color': '#287216',
       'button-gray': '#D9D9D9',
+      'dark': '#222222',
+      'white': '#fff',
+      
       
 
     },
