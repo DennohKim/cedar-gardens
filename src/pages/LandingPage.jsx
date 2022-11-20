@@ -5,7 +5,7 @@ const LandingPage = () => {
 
     <div>
 
-      <div class="container mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background">
+      <div class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background">
         <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
       </div>
       <div class="container mx-auto mt-[70px]">
@@ -26,21 +26,20 @@ const LandingPage = () => {
             </div>
             <div className="border-l border-l-gray-700 pl-8 p-4 text-left mt-4">
               <p>“We have got the best Restaurant in town. The hotel is a must see. The swimming pool and garden are beautiful. We are a well-established and reputable caterer, hotel, conference center and wedding venue. We offer a professional service for everyone. Our main goal is to provide our clients with the very best service and experience possible.”
-
               </p>
               <p className="font-bold text-1xl pt-4">Lorem Ipsum</p>
               <p className="text-1xl pt-2">Hotel Manager</p>
 
             </div>
           </div>
-          <div className="w-[100%] justify-center items-center align-center">
-            <img className="h-[70%] w-[100%] lg:w-[90%] md:w-[70%] sm:w-[100%] xs:w-[100%]  " src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg" />
+          <div className="w-[100%]  justify-center items-center align-center">
+            <img className="h-[70%] xs:h-[100%] w-[100%] lg:w-[90%] md:w-[70%] sm:w-[100%] xs:w-[100%]  " src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg" />
 
           </div>
         </div>
       </div>
       <div className="relative">
-        <div class="container mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
+        <div class=" mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
           <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">Facilities and amenities</p>
           <p className="font-cormorant font-bold text-white text-5xl uppercase ">Experience the infinity</p>
         </div>
@@ -90,10 +89,10 @@ const LandingPage = () => {
             <p className="pt-[6%] font-semibold-600">Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar posuere tellus erat quisque</p>
             <button className="p-5 mt-[6%] uppercase w-[80%] bg-gray-300 tracking-widest">Learn More</button>
           </div>
-          <div className=" h-[400px] md:w-[10 0%] lg:w-[70%]   bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center">
+          <div className=" h-[400px] md:w-[100%] lg:w-[70%]   bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center">
 
           </div>
-          
+
         </div>
         {/* <div className="
            lg:absolute 
@@ -129,10 +128,13 @@ const LandingPage = () => {
           </div>
         </div> */}
       </div>
-      {/* <div class="container mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
-          <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">Facilities and amenities</p>
-          <p className="font-cormorant font-bold text-white text-5xl uppercase ">Experience the infinity</p>
-        </div> */}
+      <div class="lg:mt-[660px] mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
+      <div className="w-[40%] h-[40%] mt-[1%] align-center ">
+       <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">Meetings</p>
+       <p className="font-jost  text-white text-1xl  text-2xl ">Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar posuere tellus erat quisque</p>
+      </div>
+       
+          </div>
     </div>
   );
 };
