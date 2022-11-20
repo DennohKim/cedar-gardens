@@ -15,7 +15,7 @@ const LandingPage = () => {
             <h4 className="font-cormorant uppercase font-bold text-3xl m-8">Your confort is our concern</h4>
             <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
               <div className="w-[100%]">
-                <img class="object-cover h-48 lg:w-96 md:w-96 sm:w-[100%] xs:w-[100%] " src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg" />
+                <img class="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] " src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg" />
               </div>
               <div className="p-3 text-left">
                 <p>Cedar is the place where you can make memories. We offer the following services: Restaurant, Swimming, Bar, Kids Play Area, Meetings and Accomodation.
