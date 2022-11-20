@@ -34,7 +34,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="w-[100%] justify-center items-center align-center">
-            <img className="h-[70%] w-[90%]" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg" />
+            <img className="h-[70%] w-[100%] lg:w-[90%] md:w-[70%] sm:w-[100%] xs:w-[100%]  " src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg" />
 
           </div>
         </div>
