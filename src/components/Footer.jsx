@@ -7,12 +7,12 @@ import { AiFillInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="bg-dark">
-      <div className="w-full h-3/4 bg-dark flex flex-col gap-16 mb-16">
+      <div className="w-full bg-dark flex flex-col gap-16 mb-16">
         <div className="w-11/12 mx-auto pt-6">
           <h3 className="font-dancing text-center sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">
             Subscribe
           </h3>
-          <h2 className="font-cormorant font-bold uppercase text-center sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white pt-2">
+          <h2 className="font-cormorant font-bold uppercase text-center sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white pt-2">
             sign up for exclusive <br /> offers from us
           </h2>
         </div>

@@ -45,8 +45,8 @@ const Navbar = () => {
 
         <div className="flex mx-auto pt-6">
           <nav>
-            <ul className="flex items-center justify-center xl:text-lg lg:text-lg md:text-base">
-              <li className="relative group px-3 py-2">
+            <ul className="flex items-center justify-center xl:text-base lg:text-md md:text-md">
+              <li className="relative group px-5 py-2">
                
                 <NavLink
                   to="/"
@@ -56,7 +56,7 @@ const Navbar = () => {
                   HOME
                 </NavLink>
               </li>
-              <li className="relative group px-3 py-2">
+              <li className="relative group px-5 py-2">
                
                 <NavLink
                   to="/aboutus"
@@ -66,7 +66,7 @@ const Navbar = () => {
                   ABOUT US
                 </NavLink>
               </li>
-              <li className="relative group px-3 py-2">
+              <li className="relative group px-5 py-2">
                 <NavLink
                   to="/services"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -140,7 +140,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-              <li className="relative group px-3 py-2">
+              <li className="relative group px-5 py-2">
                 <NavLink
                   to="/gallery"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -148,7 +148,7 @@ const Navbar = () => {
                   GALLERY
                 </NavLink>
               </li>
-              <li className="relative group px-3 py-2">
+              <li className="relative group px-5 py-2">
                 <NavLink
                   to="/location"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
@@ -156,7 +156,7 @@ const Navbar = () => {
                   LOCATION
                 </NavLink>
               </li>
-              <li className="relative group px-3 py-2">
+              <li className="relative group px-5 py-2">
                 <NavLink
                   to="/contactus"
                   className={({ isActive }) => (isActive ? activeLink : normalLink)}
