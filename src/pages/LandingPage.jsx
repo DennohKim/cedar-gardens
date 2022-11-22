@@ -65,79 +65,57 @@ const LandingPage = () => {
             Experience the infinity
           </p>
         </div>
-        <div
-          className=" relative lg:absolute  md:relative    sm:bottom-     
-        left-1/2 
-        lg:bottom-[-300px] 
-        md:transform 
-        -translate-x-1/2  
-        lg:flex
-    
-        mt-8 
-        flex-cols-4 
-        gap-0 
-        justify-center 
-        align-center 
-        items"
-        >
-          <div className=" lg:h-[400px] md:h-[100%] bg-white lg:w-[70%] md:w-[100%] sm:w-[100%] mb-10 items-center text-center justify-center block">
-            <p className="inline-block align-middle mt-[15%] uppercase text-3xl font-bold font-cormorant">
-              bar and
+        <div className="w-[100%] lg:absolute  md:absolute top-[400px] lg-[]">
+        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
+        <div className="h-[400px] text-center bg-white">
+          <div className="w-100% h-[400px]  align-center text-center">
+            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl  ">
+              Bars and
             </p>
-            <br />
-            <p className="inline-block align-middle mt-[1%] uppercase text-3xl font-bold font-cormorant">
-              Restaurant
+            <p className="font-cormorant uppercase  font-bold text-black text-3xl pb-6 ">
+              Restaurants
             </p>
-            <p className="pt-[6%] font-semibold-600">
+            <p className="pt-[6%] font-semibold-600 text-black">
               Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
               pulvinar posuere tellus erat quisque
             </p>
-            <button className="p-5 mt-[6%] uppercase w-[80%] bg-gray-300 tracking-widest">
+            <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
               Learn More
             </button>
           </div>
-          <div className=" h-[400px] md:w-[10 0%] lg:w-[70%] bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center"></div>
-        </div>{" "}
-        <div
-          className="
-        relative
-        lg:absolute 
-        md:relative
-        sm:relative
-        sm:bottom-     
-        left-1/2 
-        lg:bottom-[-700px] 
-        md:transform 
-        -translate-x-1/2  
-        lg:flex
-        flex-ro 
-       
-        flex-cols-1 
-        gap-0 
-        justify-center 
-        align-center 
-        items"
-        >
-          <div className="order-last lg:h-[400px] md:h-[100%] bg-white lg:w-[70%] md:w-[100%] sm:w-[100%] mb-10 items-center text-center justify-center block">
-            <p className="inline-block align-middle mt-[15%] uppercase text-3xl font-bold font-cormorant">
-              Party Events
-            </p>
-            <br />
-            <p className="pt-[6%] font-semibold-600">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque
-            </p>
-            <button className="p-5 mt-[6%] uppercase w-[80%] bg-gray-300 tracking-widest">
-              Learn More
-            </button>
-          </div>
-          <div className=" h-[400px] md:w-[100%] lg:w-[70%]    bg-cover bg-center  bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center"></div>
         </div>
+        <div className="h-[400px]">
+          <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
+        </div>
+      </div>
+      
+      </div>
+      <div className="w-[100%] lg:absolute  md:absolute top-[800px] lg-[]">
+      <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+        <div className="h-[400px] text-center lg:order-last">
+          <div className="w-100% h-[400px]  align-center text-center">
+            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
+              Kids Play Area
+            </p>
+            <p className="pt-[6%] font-semibold-600 text-black">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="h-[400px]   bg-cover bg-center">
+          <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
+        </div>
+      </div>
+      </div>
       </div>
       <div class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
         <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
           <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
-            Meetings
+            Party Events
           </p>
           <p className="pt-[6%] font-semibold-600 text-white">
             Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar
@@ -211,19 +189,40 @@ const LandingPage = () => {
         </p>
         <div class="grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
           <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
-          <img className="h-[40%] w-[100%]  my-5 align-center" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
-            <img className="h-[30%] w-[100%]  align-center" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
+            <img
+              className="h-[40%] w-[100%]  my-5 align-center"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
+            <img
+              className="h-[30%] w-[100%]  align-center"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
           </div>
           <div className="h-[900px] flex-col-reverse  justify-center align-center items-center flex">
-          <img className="h-[50%] w-[100%] m-5" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
-            <img className="h-[50%] w-[100%] m-5" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
+            <img
+              className="h-[50%] w-[100%] m-5"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
+            <img
+              className="h-[50%] w-[100%] m-5"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
           </div>
           <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
-          <img className="h-[80%]  w-[100%] m-5" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
+            <img
+              className="h-[80%]  w-[100%] m-5"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
           </div>
           <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
-          <img className="h-[50%] w-[100%] m-5 mt-10" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
-            <img className="h-[50%] w-[100%] m-5" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
+            <img
+              className="h-[50%] w-[100%] m-5 mt-10"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
+            <img
+              className="h-[50%] w-[100%] m-5"
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+            />
           </div>
         </div>
 
@@ -236,7 +235,18 @@ const LandingPage = () => {
           <img className="max-w-[300px]   max-h-[600px]" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"/>
 
         </div> */}
-      
+      </div>
+      <div className="w-[100%] lg:flex md:flex sm:flex  justify-center align-center text-center ">
+        <div className="lg:w-[90%] md:w-[90%] h-auto  sm:w-[100%] xs:w-[100%] grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
+          <div className="h-[500px] w-[100%] bg-slate-600">
+            <p className="text-white m-auto">Maps goes here</p>
+          </div>
+          <div className="h-[500px] w-[100%] text-left">
+            <p className="font-dancing mt-10 ml-10 text-black text-3xl">Location</p>
+            <p className="font-cormorant font-bold mt-6 ml-10 text-black text-3xl uppercase">Getting there</p>
+            <p className="font-jost mt-6 ml-10 text-black text-1xl">Located along Meru Maua Road approximately  17 Kms from Meru town.</p>
+          </div>
+        </div>
       </div>
     </div>
   );
