@@ -131,7 +131,7 @@ const LandingPage = () => {
               Learn More
             </button>
           </div>
-          <div className=" h-[400px] md:w-[100%] lg:w-[70%]   bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center"></div>
+          <div className=" h-[400px] md:w-[100%] lg:w-[70%]    bg-cover bg-center  bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]  bg-cover bg-center"></div>
         </div>
         {/* <div className="
            lg:absolute 
@@ -167,7 +167,7 @@ const LandingPage = () => {
           </div>
         </div> */}
       </div>
-      <div class="lg:mt-[690px] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+      <div class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
         <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
           <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
             Meetings
@@ -181,13 +181,12 @@ const LandingPage = () => {
           </button>
         </div>
       </div>
-      <div className=" h-auto grid md:grid-cols-2 lg:grid-cols-2 xs:grid-cols-1" />
 
-      <div class="grid lg:grid-cols-2  sm:grid-cols-1 xs:grid-col-1">
-        <div className="h-[500px] text-center ">
+      <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+        <div className="h-[400px] text-center ">
           {" "}
           <div className="w-100% h-[400px]  align-center text-center">
-            <p className="font-cormorant uppercase pt-[10%] text-black text-5xl pb-6 ">
+            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
               Swimming
             </p>
             <p className="pt-[6%] font-semibold-600 text-black">
@@ -199,28 +198,86 @@ const LandingPage = () => {
             </button>
           </div>
         </div>
-        <div className="h-[500px]">
-          {" "}
-          <div className="w-100% h-[400px]  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
+        <div className="h-[400px]">
+          <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
         </div>
       </div>
-      <div class="grid lg:grid-cols-2  sm:grid-cols-1 xs:grid-col-1">
-        <div className="h-[500px]">
-          {" "}
-          <div className="w-100% h-[400px]  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
-        </div>
-        <div className="h-[500px] text-center ">
-          {" "}
+      <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+      <div className="h-[400px] text-center lg:order-last">
           <div className="w-100% h-[400px]  align-center text-center">
-            <p className="font-cormorant uppercase pt-[10%] text-black text-5xl pb-6 ">
+            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
               Kids Play Area
             </p>
             <p className="pt-[6%] font-semibold-600 text-black">
-            Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar posuere tellus erat quisque
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
             </p>
             <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
               Learn More
             </button>
+          </div>
+        </div>
+        <div className="h-[400px]   bg-cover bg-center">
+          <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
+        </div>
+        
+      </div>
+      <div class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+        <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
+          <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
+            Accomodation
+          </p>
+          <p className="pt-[6%] font-semibold-600 text-white">
+            Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar
+            posuere tellus erat quisque
+          </p>
+          <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="w-[100%] p-20   items-center text-center justify-center ">
+        <p className="font-dancing text-2xl font-bold mt-3 align-center">
+          Welcome
+        </p>
+        <p className="font-cormorant uppercase pt-[3%] text-black text-5xl pb-6 ">
+          Make memories that last
+        </p>
+
+        <div class="row_custome">
+          <div class="column_custome">
+            <img src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg" />
+            <img src="/w3images/rocks.jpg" className="w-[100%]" />
+            <img src="/w3images/falls2.jpg" className="w-[100%]" />
+            <img src="/w3images/paris.jpg" className="w-[100%]" />
+            <img src="/w3images/nature.jpg" className="w-[100%]" />
+            <img src="/w3images/mist.jpg" className="w-[100%]" />
+            <img src="/w3images/paris.jpg" className="w-[100%]" />
+          </div>
+          <div class="column_custome">
+            <img src="/w3images/underwater.jpg" className="w-[100%]" />
+            <img src="/w3images/ocean.jpg" className="w-[100%]" />
+            <img src="/w3images/wedding.jpg" className="w-[100%]" />
+            <img src="/w3images/mountainskies.jpg" className="w-[100%]" />
+            <img src="/w3images/rocks.jpg" className="w-[100%]" />
+            <img src="/w3images/underwater.jpg" className="w-[100%]" />
+          </div>{" "}
+        </div>
+        <div className="w-[100%] grid "></div>
+        <div class="grid  lg:grid-cols-4  sm:grid-cols-2 xs:grid-cols-1 grid-rows-4  gap-2">
+          <div class="w-full row-span-1 col-span-1 p-3">
+            <img
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+              alt="Photo by Claudio Schwarz on Unsplash"
+              class="inset-0 h-full w-full object-cover object-center  opacity-75 hover:opacity-100"
+            />
+          </div>
+          <div class="w-full row-span-1 col-span-1 p-3">
+            <img
+              src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+              alt="Photo by Claudio Schwarz on Unsplash"
+              class="inset-0 h-full w-full object-cover object-center  opacity-75 hover:opacity-100"
+            />
           </div>
         </div>
       </div>
