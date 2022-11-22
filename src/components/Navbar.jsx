@@ -3,11 +3,9 @@ import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/Logo.svg";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const Navbar = () => {
-  
-
   let activeLink = "text-primary-color hover:opacity-50";
   let normalLink = "hover:opacity-50";
 
@@ -15,7 +13,22 @@ const Navbar = () => {
     <header className="w-full pt-10">
       <div className="flex flex-col w-11/12 mx-auto justify-between  font-jost">
         <div className="flex justify-between pb-6 ">
-          <div className="flex flex-col text-left gap-3">
+          <motion.div
+            initial={{
+              x: -100,
+              opacity: 0,
+              scale: 0.5,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+              scale: 1,
+            }}
+            transition={{
+              duration: 1.5,
+            }}
+            className="flex flex-col text-left gap-3"
+          >
             <div>
               {" "}
               <span className="font-bold">Phone: </span>
@@ -29,57 +42,88 @@ const Navbar = () => {
               </a>
             </div>
             <div>
-              <p><span className="font-bold">Location: </span>Kianjai, Meru</p>
+              <p>
+                <span className="font-bold">Location: </span>Kianjai, Meru
+              </p>
             </div>
-          </div>
+          </motion.div>
           <div>
-            <img src={Logo} alt="Logo" />
+            <motion.img
+              initial={{
+                opacity: 0,
+                scale: 0.5,
+              }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                scale: 1,
+              }}
+              transition={{
+                duration: 1.5,
+              }}
+              src={Logo}
+              alt="Logo"
+            />
           </div>
-          <motion.div 
-           initial={{
-            x: 100,
-            opacity: 0,
-            scale: 0.5
-  
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-  
-          }}
-          transition={{
-            duration: 1.5,
-  
-          }}
-          className="flex justify-between gap-8">
-            <FaFacebook color="#287216"  fontSize="1.5em"  />
-            <FaTiktok color="#287216"  fontSize="1.5em" />
-            <AiFillInstagram color="#287216"  fontSize="1.5em"  />
+          <motion.div
+            initial={{
+              x: 100,
+              opacity: 0,
+              scale: 0.5,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+              scale: 1,
+            }}
+            transition={{
+              duration: 1.5,
+            }}
+            className="flex justify-between gap-8"
+          >
+            <FaFacebook color="#287216" fontSize="1.5em" />
+            <FaTiktok color="#287216" fontSize="1.5em" />
+            <AiFillInstagram color="#287216" fontSize="1.5em" />
           </motion.div>
         </div>
 
-        <div className="border-t" />
+        <motion.div
+          className="border-t"
+          initial={{
+            opacity: 0,
+          }}
+          transition={{ duration: 1.2 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+        />
 
         <div className="flex mx-auto pt-6">
-          <nav>
+          <motion.nav
+            initial={{
+              y: -30,
+              opacity: 0,
+            }}
+            transition={{ duration: 1.2 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
             <ul className="flex items-center justify-center xl:text-base lg:text-md md:text-md">
               <li className="relative group px-5 py-2">
-               
                 <NavLink
                   to="/"
-                  className={({ isActive }) => (isActive ? activeLink : normalLink)}
-                  
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
                 >
                   HOME
                 </NavLink>
               </li>
               <li className="relative group px-5 py-2">
-               
                 <NavLink
                   to="/aboutus"
-                  className={({ isActive }) => (isActive ? activeLink : normalLink)}
-                  
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
                 >
                   ABOUT US
                 </NavLink>
@@ -87,8 +131,9 @@ const Navbar = () => {
               <li className="relative group px-5 py-2">
                 <NavLink
                   to="/services"
-                  className={({ isActive }) => (isActive ? activeLink : normalLink)}
-                 
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
                 >
                   SERVICES
                 </NavLink>
@@ -161,7 +206,9 @@ const Navbar = () => {
               <li className="relative group px-5 py-2">
                 <NavLink
                   to="/gallery"
-                  className={({ isActive }) => (isActive ? activeLink : normalLink)}
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
                 >
                   GALLERY
                 </NavLink>
@@ -169,7 +216,9 @@ const Navbar = () => {
               <li className="relative group px-5 py-2">
                 <NavLink
                   to="/location"
-                  className={({ isActive }) => (isActive ? activeLink : normalLink)}
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
                 >
                   LOCATION
                 </NavLink>
@@ -177,13 +226,15 @@ const Navbar = () => {
               <li className="relative group px-5 py-2">
                 <NavLink
                   to="/contactus"
-                  className={({ isActive }) => (isActive ? activeLink : normalLink)}
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
                 >
                   CONTACT US
                 </NavLink>
               </li>
             </ul>
-          </nav>
+          </motion.nav>
         </div>
       </div>
     </header>
