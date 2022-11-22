@@ -3,6 +3,7 @@ import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/Logo.svg";
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
   
@@ -34,11 +35,28 @@ const Navbar = () => {
           <div>
             <img src={Logo} alt="Logo" />
           </div>
-          <div className="flex justify-between gap-8">
+          <motion.div 
+           initial={{
+            x: 100,
+            opacity: 0,
+            scale: 0.5
+  
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+  
+          }}
+          transition={{
+            duration: 1.5,
+  
+          }}
+          className="flex justify-between gap-8">
             <FaFacebook color="#287216"  fontSize="1.5em"  />
             <FaTiktok color="#287216"  fontSize="1.5em" />
             <AiFillInstagram color="#287216"  fontSize="1.5em"  />
-          </div>
+          </motion.div>
         </div>
 
         <div className="border-t" />
