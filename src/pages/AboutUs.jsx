@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 const AboutUs = () => {
   return (
+
     <div>
       <Navbar />
      
@@ -23,6 +24,10 @@ const AboutUs = () => {
           </h2>
         </motion.div>
       </div>
+
+  )
+}
+
 
        {/* Your Content Goes Here */}
 
