@@ -1,11 +1,17 @@
-import React from 'react';
+
+import React from 'react'
+import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { motion } from 'framer-motion';
 
+
 const ContactUs = () => {
   return (
     <div>
+
+      <ContactForm/>
+
       <Navbar/>
       
       <div className="my-10">
@@ -27,6 +33,7 @@ const ContactUs = () => {
       {/* Your Content Goes Here */}
      <Footer/>
       
+
     </div>
   )
 }
