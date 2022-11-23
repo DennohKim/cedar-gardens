@@ -1,41 +1,43 @@
 import React from "react";
+import { motion } from 'framer-motion'
+
 
 const LandingPage = () => {
   return (
     <div>
-      <div class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background">
+      <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 0.5, stiffness: 120, type: "spring" }} class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background">
         <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
-      </div>
+      </motion.div>
       <div class="container mx-auto mt-[70px]">
         <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
           <div className="w-[100%] text-center justify-center items-center">
-            <p className="font-dancing text-2xl font-bold mt-3 align-center">
+            <motion.p initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 0.5, stiffness: 120, type: "spring" }} className="font-dancing text-2xl font-bold mt-3 align-center">
               Welcome
-            </p>
-            <h4 className="font-cormorant uppercase font-bold text-3xl m-8">
+            </motion.p>
+            <motion.h4 initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 0.7, stiffness: 120, type: "spring" }} className="font-cormorant uppercase font-bold text-3xl m-8">
               Your confort is our concern
-            </h4>
+            </motion.h4>
             <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
               <div className="w-[100%]">
-                <img
+                <motion.img initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 0.9, stiffness: 120, type: "spring" }}
                   class="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] "
                   src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg"
                 />
               </div>
-              <div className="p-3 text-left">
+              <motion.div className="p-3 text-left" initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 1.1, stiffness: 120, type: "spring" }}>
                 <p>
                   Cedar is the place where you can make memories. We offer the
                   following services: Restaurant, Swimming, Bar, Kids Play Area,
                   Meetings and Accomodation.
-                </p>
+                
                 <br />
-                <p>
+               
                   The hotel is located on Kianjai meru, approximately 17km from
                   Meru town.
                 </p>
-              </div>
+              </motion.div>
             </div>
-            <div className="border-l border-l-gray-700 pl-8 p-4 text-left mt-4">
+            <motion.div className="border-l border-l-gray-700 pl-8 p-4 text-left mt-4" initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 1.3, stiffness: 120, type: "spring" }} >
               <p>
                 “We have got the best Restaurant in town. The hotel is a must
                 see. The swimming pool and garden are beautiful. We are a
@@ -46,17 +48,17 @@ const LandingPage = () => {
               </p>
               <p className="font-bold text-1xl pt-4">Lorem Ipsum</p>
               <p className="text-1xl pt-2">Hotel Manager</p>
-            </div>
+            </motion.div>
           </div>
           <div className="w-[100%]  justify-center items-center align-center">
-            <img
+            <motion.img initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 1.5, stiffness: 120, type: "spring" }}
               className="h-[70%] xs:h-[100%] w-[100%] lg:w-[90%] md:w-[70%] sm:w-[100%] xs:w-[100%]  "
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
             />
           </div>
         </div>
       </div>
-      <div className="relative">
+      <motion.div className="relative" initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 0.5, stiffness: 120, type: "spring" }}>
         <div class=" mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
           <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">
             Facilities and amenities
@@ -67,9 +69,9 @@ const LandingPage = () => {
         </div>
         <div className="w-[100%] lg:absolute  md:absolute top-[400px] lg-[]">
         <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
-        <div className="h-[400px] text-center bg-white">
+        <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.5, delay: 1, stiffness: 120, type: "spring" }} className="h-[400px] text-center bg-white">
           <div className="w-100% h-[400px]  align-center text-center">
-            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl  ">
+            <p className="font-cormorant uppercase pt-[10%] font-bold  text-black text-3xl  " >
               Bars and
             </p>
             <p className="font-cormorant uppercase  font-bold text-black text-3xl pb-6 ">
@@ -83,16 +85,15 @@ const LandingPage = () => {
               Learn More
             </button>
           </div>
-        </div>
-        <div className="h-[400px]">
+        </motion.div>
+        <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:false}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.5, delay: 1.5, stiffness: 120, type: "spring" }} className="h-[400px]">
           <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
-        </div>
+        </motion.div>
       </div>
-      
       </div>
-      <div className="w-[100%] lg:absolute  md:absolute top-[800px] lg-[]">
+      <motion.div className="w-[100%] lg:absolute  md:absolute top-[800px] lg-[]" initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.5, delay: 1.5, stiffness: 120, type: "spring" }}>
       <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
-        <div className="h-[400px] text-center lg:order-last">
+        <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:false}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.5, delay: 2.5, stiffness: 120, type: "spring" }}  className="h-[400px] text-center lg:order-last">
           <div className="w-100% h-[400px]  align-center text-center">
             <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
               Kids Play Area
@@ -105,14 +106,14 @@ const LandingPage = () => {
               Learn More
             </button>
           </div>
-        </div>
-        <div className="h-[400px]   bg-cover bg-center">
+        </motion.div>
+        <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:false}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.5, delay: 2.0, stiffness: 120, type: "spring" }} div className="h-[400px]   bg-cover bg-center">
           <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
-        </div>
+        </motion.div>
       </div>
-      </div>
-      </div>
-      <div class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+      </motion.div>
+      </motion.div>
+      <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:false}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.5, delay: 0.5, stiffness: 120, type: "spring" }} class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
         <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
           <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
             Party Events
@@ -125,7 +126,7 @@ const LandingPage = () => {
             Learn More
           </button>
         </div>
-      </div>
+      </motion.div>
 
       <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
         <div className="h-[400px] text-center ">
