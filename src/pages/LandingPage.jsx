@@ -1,10 +1,14 @@
 import React from "react";
 import { motion } from 'framer-motion'
-
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
   return (
-    <div>
+    <>
+     <Navbar/>
+     {/* Your Content Goes Here */}
+     <div>
       <motion.div initial={{scaleX: 0, scaleY: 0 }} viewport={{once:true}} whileInView={{scaleX: 1, scaleY: 1 }} transition={{ duration: 0.8, delay: 0.5, stiffness: 120, type: "spring" }} class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background">
         <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
       </motion.div>
@@ -250,12 +254,15 @@ const LandingPage = () => {
         </div>
       </div>
     </div>
+     
+     
+     
+     <Footer/>
+      
+  
+    </>
+
   );
 };
 
 export default LandingPage;
-{
-  /* <div className="font-jost font-bold text-3xl">LandingPage</div>
-      <div className="font-dancing">LandingPage</div>
-      <div className="c">LandingPage</div> */
-}

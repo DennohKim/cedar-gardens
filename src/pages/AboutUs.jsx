@@ -1,8 +1,33 @@
 import React from "react";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import { motion } from 'framer-motion';
 
 const AboutUs = () => {
   return (
+
     <div>
+      <Navbar />
+     
+      <div className="my-10">
+        <motion.div  
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 1.2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }} 
+              className="bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')]  bg-no-repeat bg-cover bg-center h-72 flex justify-center">
+          <h2 className="text-center text-4xl font-jost text-white font-semibold tracking-[2rem] self-center hover:scale-105 hover:ease-in-out animate-pulse">
+            ABOUT US
+          </h2>
+        </motion.div>
+      </div>
+      
+       {/* Your Content Goes Here */}
+       
+       <div>
       <div class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[300px]  justify-center text-center flex items-center home-background">
         <p className="font-jost space tracking-widest  text-white text-2xl font-bold uppercase space">
           About us
@@ -221,7 +246,14 @@ const AboutUs = () => {
           Our Team
         </p>
       </div>
-    </div>
+       
+       
+
+      <Footer />
+      </div>
+
+
+    
   );
 };
 

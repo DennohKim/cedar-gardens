@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .img{
 
   max-width: 100%;
@@ -26,3 +27,12 @@
 .space{
   letter-spacing: 15px;
 }
+
+@layer components {
+    .main-image {
+        @apply bg-[#000]/50 z-10 scale-150
+    }
+
+
+}
+
