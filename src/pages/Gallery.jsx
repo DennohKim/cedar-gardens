@@ -30,16 +30,16 @@ const Gallery = () => {
 
       {/* Your Content Goes Here */}
 
-      <div>
-        <div className="mb-4 border-b border-gray-200 dark:border-gray-700">
+      <div className=''>
+        <div className="mb-4  border-b border-gray-200 dark:border-gray-700">
           <ul
-            className="flex flex-wrap -mb-px text-sm font-medium text-center"
+            className="flex flex-wrap  mx-96 -mb-px text-sm font-medium  "
             role="tablist"
           >
             <li className="mr-2">
-              <button
-                className="inline-block p-4 rounded-t-lg border-b-2"
-                onClick={() => handleTab(1)}
+              <button 
+              className={toggletab === 1 ? "text-primary-color inline-block p-4 rounded-t-lg border-t-2" : "inline-block p-4 rounded-t-lg"}
+              onClick={() => handleTab(1)}
                 type="button"
                 role="tab"
                 aria-selected="false"
@@ -49,7 +49,7 @@ const Gallery = () => {
             </li>
             <li className="mr-2">
               <button
-                className="inline-block p-4 rounded-t-lg border-b-2"
+                className={toggletab === 2 ? "text-primary-color inline-block p-4 rounded-t-lg border-t-2" : "inline-block p-4 rounded-t-lg "}
                 onClick={() => handleTab(2)}
                 type="button"
                 role="tab"
@@ -60,7 +60,7 @@ const Gallery = () => {
             </li>
             <li className="mr-2">
               <button
-                className="inline-block p-4 rounded-t-lg border-b-2"
+                className={toggletab === 3 ? "text-primary-color inline-block p-4 rounded-t-lg border-t-2" : "inline-block p-4 rounded-t-lg "}
                 onClick={() => handleTab(3)}
                 type="button"
                 role="tab"
@@ -71,7 +71,7 @@ const Gallery = () => {
             </li>
             <li className="mr-2">
               <button
-                className="inline-block p-4 rounded-t-lg border-b-2"
+               className={toggletab === 4 ? "text-primary-color inline-block p-4 rounded-t-lg border-t-2" : "inline-block p-4 rounded-t-lg "}
                 onClick={() => handleTab(4)}
                 type="button"
                 role="tab"
@@ -86,11 +86,11 @@ const Gallery = () => {
         {/* create a div to hold the tabs content */}
         <div className="">
           <div className={toggletab === 1 ? "block" : "hidden"}>
-            <div className="sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-2 lg:gap-8">
-              <div className="grid grid-cols-2 gap-4  ">
+            <div className="mx-16  sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-2 lg:gap-8">
+              <div className="grid grid-cols-2 gap-8 m-4 ">
                 <div className="h-3/4">
                   <img
-                    className="h-full w-full transform transition-all hover:scale-110"
+                    className="h-full w-full object-fit transform transition-all hover:scale-110"
                     src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135112/Cedar%20Hotel/Edited/IMG_7158_kxazn0.jpg"
                     alt="garden"
                   />
@@ -110,21 +110,21 @@ const Gallery = () => {
                   />
                 </div>
               </div>
-              <div className="h-3/4">
+              <div className="h-3/4 m-4 ">
                 <img
-                  className="h-full w-full transform transition-all hover:scale-110"
+                  className="h-full w-full object transform transition-all hover:scale-110"
                   src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
                   alt="garden "
                 />
               </div>
-              <div className="h-full -my-36">
+              <div className="h-full m-4  -my-32">
                 <img
-                  className="h-full w-full transform transition-all hover:scale-110"
+                  className="h-full w-full object-fit transform transition-all hover:scale-110"
                   src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
                   alt="garden images"
                 />
               </div>
-              <div className="grid grid-cols-2 gap-2 -my-36 ">
+              <div className="grid grid-cols-2 gap-8  -my-32 ">
                 <div className="h-1/2 w-full">
                   <img
                     className="h-full w-full transform transition-all hover:scale-110"
@@ -139,9 +139,9 @@ const Gallery = () => {
                     alt="beautiful terrain"
                   />
                 </div>
-                <div className="col-span-2 h-full w-full -my-48 ">
+                <div className="col-span-2 h-5/6 w-full -my-48 ">
                   <img
-                    className="h-3/4 w-full transform transition-all hover:scale-110"
+                    className="h-full w-full object-fit transform transition-all hover:scale-110"
                     src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg"
                     alt="gardens"
                   />
