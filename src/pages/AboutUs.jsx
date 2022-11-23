@@ -9,7 +9,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="w-[100%] ">
-        <div className="lg:w-[100%] md:w-[80%] sm:w-[90%] xs:w-[100%] lg:p-[4%] md:p-[4%] sm:p-[4%] p-[4%] xs:p-[1%] lg:pb-0 md:pb-0 sm:pb-0 xs:pb-0">
+        <div className="lg:w-[100%] md:w-[80%] sm:w-[90%] xs:w-[100%] lg:p-[4%] md:p-[4%] sm:p-[4%]  xs:p-[1%] lg:pb-0 md:pb-0 sm:pb-0 xs:pb-0">
           <div className="w-[100%] bg-white">
             <p className="font-dancing text-3xl font-bold">Our Story</p>
             <p className="text-5xl font-bold font-cormorant pt-7 uppercase">
@@ -18,17 +18,16 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="w-[100%] flex gap-3 justify-center align-center items-center lg:p-[4%] md:p-[4%] sm:p-[4%] p-[4%] xs:p-[1%] ">
-          <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 w-[100%]">
-            <div className="lg:col-span-2 md:col-span-3 sm:col-span-1 xs:col-span-1 w-[100%] bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center h-[700px]">
-              ksdvf
-            </div>
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 lg:w-[90%] md:w-[90%] sm:w-[95%] w-[100%] ">
+            <div className="lg:col-span-2 md:col-span-3 sm:col-span-1 xs:col-span-1 w-[100%] bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center h-[700px]"></div>
             <div className="w-[100%]  bg-cover bg-center h-[100%] bg-white flex  items-end sm:mt-3 mt-3 lg:mt-0 md:mt-0 lg:ml-2 md:ml-2">
-            <img
+              <img
                 src="https://mdbootstrap.com/img/new/slides/041.jpg "
                 className="object-cover h-[100%]  w-[100%] lg:h-[51%] md:h-[51%] sm:h-[100%] "
               />
-            </div> <div className="w-[100%]  bg-cover bg-center h-[100%] bg-white flex  items-end sm:mt-3 mt-6 lg:mt-0 md:mt-0 lg:ml-4 md:ml-4 ">
-            <img
+            </div>{" "}
+            <div className="w-[100%]  bg-cover bg-center h-[100%] bg-white flex  items-end sm:mt-3 mt-6 lg:mt-0 md:mt-0 lg:ml-4 md:ml-4 ">
+              <img
                 src="https://mdbootstrap.com/img/new/slides/041.jpg "
                 className="object-cover lg:h-[51%] md:h-[51%] sm:h-[100%] h-[100%] sm:mt-3  w-[100%]"
               />
@@ -68,20 +67,24 @@ const AboutUs = () => {
               </li>
             </ul>
           </div>
-          <div className="tab-content p-4 lg:ml-[10%] md:ml-[10%] sm:ml-[5%] ml-[10%]"  id="tabs-tabContent">
+          <div
+            className="tab-content p-4 lg:ml-[10%] md:ml-[10%] sm:ml-[5%] ml-[10%]"
+            id="tabs-tabContent"
+          >
             <div
               class="tab-pane  show active"
               id="tabs-home"
               role="tabpanel"
               aria-labelledby="tabs-home-tab"
             >
-               <p className="pt-[6%] font-semibold-600 text-black">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque
-            </p>  <p className="pt-[6%] font-semibold-600 text-black">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque
-            </p>
+              <p className="pt-[6%] font-semibold-600 text-black">
+                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                pulvinar posuere tellus erat quisque
+              </p>{" "}
+              <p className="pt-[6%] font-semibold-600 text-black">
+                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                pulvinar posuere tellus erat quisque
+              </p>
             </div>
             <div
               class="tab-pane "
@@ -90,19 +93,36 @@ const AboutUs = () => {
               aria-labelledby="tabs-profile-tab"
             >
               <p className="pt-[6%] font-semibold-600 text-black">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque
-            </p>  <p className="pt-[6%] font-semibold-600 text-black">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque
-            </p>  <p className="pt-[6%] font-semibold-600 text-black">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque
-            </p>
+                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                pulvinar posuere tellus erat quisque
+              </p>{" "}
+              <p className="pt-[6%] font-semibold-600 text-black">
+                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                pulvinar posuere tellus erat quisque
+              </p>{" "}
+              <p className="pt-[6%] font-semibold-600 text-black">
+                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                pulvinar posuere tellus erat quisque
+              </p>
             </div>
-           
           </div>
         </div>
+      </div>
+      <div className="w-[100%] flex flex-col-reverse justify-center items-center ">
+        <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2">
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse">
+            
+          </div>
+          <div className="bg-gray-300 h-[200px] width-[100%]"></div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%]"></div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%]"></div>{" "}
+        </div>
+        <p className="font-cormorant uppercase pb-[2%]  font-bold text-black text-3xl ">
+          Make Your experience memorable
+        </p>
+        <p className="font-dancing pb-[1%] pt-[2%] font-bold text-black text-3xl  ">
+          Services
+        </p>
       </div>
     </div>
   );
