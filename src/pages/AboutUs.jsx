@@ -28,11 +28,6 @@ const AboutUs = () => {
       {/* Your Content Goes Here */}
 
       <div>
-        <div class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[300px]  justify-center text-center flex items-center home-background">
-          <p className="font-jost space tracking-widest  text-white text-2xl font-bold uppercase space">
-            About us
-          </p>
-        </div>
         <div className="w-[100%] ">
           <div className="lg:w-[100%] md:w-[80%] sm:w-[90%] xs:w-[100%] lg:p-[4%] md:p-[4%] sm:p-[4%]  xs:p-[1%] lg:pb-0 md:pb-0 sm:pb-0 xs:pb-0">
             <div className="w-[100%] bg-white">
