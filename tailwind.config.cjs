@@ -9,6 +9,16 @@ module.exports = {
       'jost': ['Jost','sans-serif'],
       'dancing': ['Dancing Script', 'cursive'],
       'cormorant': ['Cormorant Garamond','serif'],
+
+    },
+    colors: {
+      'primary-color': '#287216',
+      'button-gray': '#D9D9D9',
+      'dark': '#222222',
+      'white': '#fff',
+      
+      
+
     },
      screens: {
      'sm': '500px',

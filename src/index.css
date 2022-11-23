@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .main-image {
+        @apply bg-[#000]/50 z-10 scale-150
+    }
+
+
+}
