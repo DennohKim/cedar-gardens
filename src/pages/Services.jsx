@@ -1,8 +1,32 @@
-import React from 'react'
+import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import { motion } from 'framer-motion';
 
 const Services = () => {
   return (
-    <div className=''>
+
+    <div>
+      <Navbar/>
+      <div className="my-10">
+        <motion.div  
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 1.2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }} 
+              className="bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-no-repeat bg-cover bg-center h-72 flex justify-center">
+          <h2 className="text-center text-4xl font-jost text-white font-semibold tracking-[2rem] self-center hover:scale-105 hover:ease-in-out animate-pulse">
+            SERVICES
+          </h2>
+        </motion.div>
+      </div>
+
+      {/* Your Content Goes Here */}
+      
+      <div className=''>
       <div className='sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-3 lg:gap-8'>
             <div className='sm:h-4/6  sm:w-full  md:h-3/4  lg:h-3/4 w-full' >
               <img  className='h-full w-full transform transition-all hover:scale-110' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg' alt='Bar and restaurant' />
@@ -59,6 +83,9 @@ const Services = () => {
         </div>  
         </div>
       </div>
+     <Footer/>
+      
+
     </div>
   )
 }

@@ -1,4 +1,11 @@
+
 import React, {useState} from 'react'
+
+import React from 'react'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import { motion } from 'framer-motion';
+
 
 const Gallery = () => {
     const [toggletab, setToggleTab]=useState(1)
@@ -6,7 +13,29 @@ const Gallery = () => {
         setToggleTab(index)
     }
   return (
-    <div>
+    
+
+      <Navbar/>
+      <div className="my-10">
+        <motion.div  
+              initial={{
+                y: -100,
+                opacity: 0,
+              }}
+              transition={{ duration: 1.2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }} 
+              className="bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-no-repeat bg-cover bg-center h-72 flex justify-center">
+          <h2 className="text-center text-4xl font-jost text-white font-semibold tracking-[2rem] self-center hover:scale-105 hover:ease-in-out animate-pulse">
+            GALLERY
+          </h2>
+        </motion.div>
+      </div>
+
+      {/* Your Content Goes Here */}
+      
+      <div>
+
  <div className="mb-4 border-b border-gray-200 dark:border-gray-700">
     <ul className="flex flex-wrap -mb-px text-sm font-medium text-center"  role="tablist">
         <li className="mr-2">
@@ -65,6 +94,9 @@ const Gallery = () => {
      <div className={toggletab===3 ? 'block': 'hidden'}>PLAY AREA images</div>
      <div className={toggletab===4 ? 'block': 'hidden'}>ROOMS images</div>
      </div>
+     <Footer/>
+      
+
     </div>
   )
 }
