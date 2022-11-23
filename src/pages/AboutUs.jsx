@@ -110,18 +110,115 @@ const AboutUs = () => {
       </div>
       <div className="w-[100%] flex flex-col-reverse justify-center items-center ">
         <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2">
-          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse">
-            
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Restaurant</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Bar</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Swimming</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
           </div>
-          <div className="bg-gray-300 h-[200px] width-[100%]"></div>{" "}
-          <div className="bg-gray-300 h-[200px] width-[100%]"></div>{" "}
-          <div className="bg-gray-300 h-[200px] width-[100%]"></div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Kids Playing area</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Meetings</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Photography</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">
+              Birthday/Graduation Party
+            </p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>{" "}
+          <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <p className="pt-[3%] font-semibold-600 text-black text-center">
+              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+              pulvinar posuere tellus erat quisque
+            </p>
+            <p className="text-1xl font-bold pt-[3%]">Accomodation</p>
+            <img className="h-10 w-10 bg-gray-700"></img>
+          </div>
         </div>
-        <p className="font-cormorant uppercase pb-[2%]  font-bold text-black text-3xl ">
+        <p className="font-cormorant uppercase pb-[2%]  font-bold text-black text-center text-3xl ">
           Make Your experience memorable
         </p>
         <p className="font-dancing pb-[1%] pt-[2%] font-bold text-black text-3xl  ">
           Services
+        </p>
+      </div>
+      <div className="w-[100%] mb-10 flex flex-col-reverse justify-center items-center ">
+        <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2">
+        <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div> <div className="bg-gray-300 h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center bg-[url('https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')] bg-cover bg-center">
+          
+          <p className="text-1xl font-bold pt-[3%]">Lorem Ipsum</p>
+        </div>
+        
+         
+        </div>
+        <p className="font-cormorant uppercase pb-[2%]  font-bold text-black text-3xl ">
+          meet our staff
+        </p>
+        <p className="font-dancing pb-[1%] pt-[2%] font-bold text-black text-3xl  ">
+          Our Team
         </p>
       </div>
     </div>
