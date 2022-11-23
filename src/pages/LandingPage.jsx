@@ -1,11 +1,16 @@
 import React from "react";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
   return (
     <>
-      <div className="font-jost font-bold text-3xl">LandingPage</div>
-      <div className="font-dancing">LandingPage</div>
-      <div className="font-cormorant">LandingPage</div>
+     <Navbar/>
+     {/* Your Content Goes Here */}
+     <div className="mt-20"></div>
+     <Footer/>
+      
+  
     </>
   );
 };
