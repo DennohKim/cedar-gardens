@@ -16,8 +16,7 @@ const LandingPage = () => {
           transition={{
             duration: 0.8,
             delay: 0.5,
-            stiffness: 120,
-            type: "spring",
+          
           }}
           class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background"
         >
@@ -31,10 +30,10 @@ const LandingPage = () => {
                 viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.8,
+                  duration: 0.3,
                   delay: 0.5,
-                  stiffness: 120,
-                  type: "spring",
+                  
+                  
                 }}
                 className="font-dancing text-2xl font-bold mt-3 align-center"
               >
@@ -45,10 +44,10 @@ const LandingPage = () => {
                 viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.8,
+                  duration: 0.3,
                   delay: 0.7,
-                  stiffness: 120,
-                  type: "spring",
+                  
+                  
                 }}
                 className="font-cormorant uppercase font-bold text-3xl m-8"
               >
@@ -61,10 +60,10 @@ const LandingPage = () => {
                     viewport={{ once: true }}
                     whileInView={{ scaleX: 1, scaleY: 1 }}
                     transition={{
-                      duration: 0.8,
+                      duration: 0.3,
                       delay: 0.9,
-                      stiffness: 120,
-                      type: "spring",
+                      
+                      
                     }}
                     class="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] "
                     src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg"
@@ -76,10 +75,10 @@ const LandingPage = () => {
                   viewport={{ once: true }}
                   whileInView={{ scaleX: 1, scaleY: 1 }}
                   transition={{
-                    duration: 0.8,
+                    duration: 0.3,
                     delay: 1.1,
-                    stiffness: 120,
-                    type: "spring",
+                    
+                    
                   }}
                 >
                   <p>
@@ -98,10 +97,10 @@ const LandingPage = () => {
                 viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.8,
+                  duration: 0.3,
                   delay: 1.3,
-                  stiffness: 120,
-                  type: "spring",
+                  
+                  
                 }}
               >
                 <p>
@@ -122,10 +121,10 @@ const LandingPage = () => {
                 viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.8,
+                  duration: 0.3,
                   delay: 1.5,
-                  stiffness: 120,
-                  type: "spring",
+                  
+                  
                 }}
                 className="h-[70%] xs:h-[100%] w-[100%] lg:w-[90%] md:w-[70%] sm:w-[100%] xs:w-[100%]  "
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
@@ -139,10 +138,10 @@ const LandingPage = () => {
           viewport={{ once: true }}
           whileInView={{ scaleX: 1, scaleY: 1 }}
           transition={{
-            duration: 0.8,
+            duration: 0.3,
             delay: 0.5,
-            stiffness: 120,
-            type: "spring",
+            
+            
           }}
         >
           <div class=" mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
@@ -160,10 +159,10 @@ const LandingPage = () => {
                 viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.5,
-                  delay: 1,
-                  stiffness: 120,
-                  type: "spring",
+                  duration: 0.3,
+                  delay: 0,
+                  
+                  
                 }}
                 className="h-[400px] text-center bg-white"
               >
@@ -185,13 +184,13 @@ const LandingPage = () => {
               </motion.div>
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.5,
-                  delay: 1.5,
-                  stiffness: 120,
-                  type: "spring",
+                  duration: 0.3,
+                  delay: 0.5,
+                  
+                  
                 }}
                 className="h-[400px]"
               >
@@ -205,22 +204,22 @@ const LandingPage = () => {
             viewport={{ once: true }}
             whileInView={{ scaleX: 1, scaleY: 1 }}
             transition={{
-              duration: 0.5,
-              delay: 1.5,
-              stiffness: 120,
-              type: "spring",
+              duration: 0.3,
+              delay: 0.5,
+              
+              
             }}
           >
             <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.5,
-                  delay: 2.5,
-                  stiffness: 120,
-                  type: "spring",
+                  duration: 0.3,
+                  delay: 0.5,
+                  
+                  
                 }}
                 className="h-[400px] text-center lg:order-last"
               >
@@ -239,13 +238,13 @@ const LandingPage = () => {
               </motion.div>
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
-                viewport={{ once: false }}
+                viewport={{ once: true }}
                 whileInView={{ scaleX: 1, scaleY: 1 }}
                 transition={{
-                  duration: 0.5,
-                  delay: 2.0,
-                  stiffness: 120,
-                  type: "spring",
+                  duration: 0.3,
+                  delay: 0.5,
+                  
+                  
                 }}
                 div
                 className="h-[400px]   bg-cover bg-center"
@@ -257,13 +256,13 @@ const LandingPage = () => {
         </motion.div>
         <motion.div
           initial={{ scaleX: 0, scaleY: 0 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           whileInView={{ scaleX: 1, scaleY: 1 }}
           transition={{
             duration: 0.5,
             delay: 0.5,
-            stiffness: 120,
-            type: "spring",
+            
+            
           }}
           class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
         >
@@ -281,7 +280,15 @@ const LandingPage = () => {
           </div>
         </motion.div>
 
-        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+        <motion.div   initial={{ scaleX: 0, scaleY: 0 }}
+          viewport={{ once: true }}
+          whileInView={{ scaleX: 1, scaleY: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5,
+            
+            
+          }} class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] text-center ">
             {" "}
             <div className="w-100% h-[400px]  align-center text-center">
@@ -300,7 +307,7 @@ const LandingPage = () => {
           <div className="h-[400px]">
             <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
           </div>
-        </div>
+        </motion.div>
         <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] text-center lg:order-last">
             <div className="w-100% h-[400px]  align-center text-center">
@@ -320,7 +327,15 @@ const LandingPage = () => {
             <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
           </div>
         </div>
-        <div class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+        <motion.div  initial={{scaleY: 0,scaleX:0 }}
+                 viewport={{ once: true }}
+                 whileInView={{scaleX: 1,scaleY:1 }}
+                 transition={{
+                   duration: 0.5,
+                   delay: 0.5,
+                   
+                   
+                 }}  class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
               Accomodation
@@ -333,7 +348,7 @@ const LandingPage = () => {
               Learn More
             </button>
           </div>
-        </div>
+        </motion.div>
         <div class="w-[100%] p-20   items-center text-center justify-center ">
           <p className="font-dancing text-2xl font-bold mt-3 align-center">
             Welcome
@@ -342,8 +357,25 @@ const LandingPage = () => {
             Make memories that last
           </p>
           <div class="grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
-            <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
-              <img
+            <motion.div    initial={{opacity: 0 }}
+          viewport={{ once: true }}
+          whileInView={{opacity: 1 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.5,
+            
+            
+          }}  className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
+              <motion.img
+                 initial={{opacity: 0 }}
+                 viewport={{ once: true }}
+                 whileInView={{opacity: 1 }}
+                 transition={{
+                   duration: 0.5,
+                   delay: 1,
+                   
+                   
+                 }} 
                 className="h-[40%] w-[100%]  my-5 align-center"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
               />
@@ -351,8 +383,16 @@ const LandingPage = () => {
                 className="h-[30%] w-[100%]  align-center"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
               />
-            </div>
-            <div className="h-[900px] flex-col-reverse  justify-center align-center items-center flex">
+            </motion.div>
+            <motion.div  initial={{opacity: 0 }}
+                 viewport={{ once: true }}
+                 whileInView={{opacity: 1 }}
+                 transition={{
+                   duration: 0.5,
+                   delay: 1.5,
+                   
+                   
+                 }}   className="h-[900px] flex-col-reverse  justify-center align-center items-center flex">
               <img
                 className="h-[50%] w-[100%] m-5"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
@@ -361,14 +401,30 @@ const LandingPage = () => {
                 className="h-[50%] w-[100%] m-5"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
               />
-            </div>
-            <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
+            </motion.div>
+            <motion.div  initial={{opacity: 0 }}
+                 viewport={{ once: true }}
+                 whileInView={{opacity: 1 }}
+                 transition={{
+                   duration: 0.5,
+                   delay: 2,
+                   
+                   
+                 }}  className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
               <img
                 className="h-[80%]  w-[100%] m-5"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
               />
-            </div>
-            <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
+            </motion.div >
+            <motion.div  initial={{opacity: 0 }}
+                 viewport={{ once: true }}
+                 whileInView={{opacity: 1 }}
+                 transition={{
+                   duration: 0.5,
+                   delay: 2.5,
+                   
+                   
+                 }}  className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
               <img
                 className="h-[50%] w-[100%] m-5 mt-10"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
@@ -377,7 +433,7 @@ const LandingPage = () => {
                 className="h-[50%] w-[100%] m-5"
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
               />
-            </div>
+            </motion.div>
           </div>
 
           {/* <div class="flex_container flex gap-2 flex-wrap">
@@ -390,7 +446,16 @@ const LandingPage = () => {
 
         </div> */}
         </div>
-        <div className="w-[100%] lg:flex md:flex sm:flex  justify-center align-center text-center ">
+        <motion.div   initial={{ scaleX: 0, scaleY: 0 }}
+                viewport={{ once: true }}
+                whileInView={{ scaleX: 1, scaleY: 1 }}
+                transition={{
+                  duration: 0.3,
+                  delay: 0.5,
+                  
+                  
+                }}
+                 className="w-[100%] lg:flex md:flex sm:flex  justify-center align-center text-center ">
           <div className="lg:w-[90%] md:w-[90%] h-auto  sm:w-[100%] xs:w-[100%] grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
             <div className="h-[500px] w-[100%] bg-slate-600">
               <p className="text-white m-auto">Maps goes here</p>
@@ -408,7 +473,7 @@ const LandingPage = () => {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <Footer />
