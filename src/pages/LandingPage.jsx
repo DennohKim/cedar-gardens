@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-
+import bg from "../assets/images/bg_cedar.png"
 const LandingPage = () => {
   return (
     <>
       <Navbar />
       {/* Your Content Goes Here */}
-      <div>
+      <div style={{backgroundImage: `url(${bg})`}}>
         <motion.div
           initial={{ scaleX: 0, scaleY: 0 }}
           viewport={{ once: true }}
@@ -20,10 +20,10 @@ const LandingPage = () => {
           }}
           class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background"
         >
-          <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
+          <p className="font-dancing  text-red-100 text-6xl  ">Cedar Gardens</p>
         </motion.div>
-        <div class="container mx-auto mt-[70px]">
-          <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
+        <div class=" w-[100%] bg-white  pt-[70px] mt-0 mx-auto pt-10 flex justify-center items-center text-center">
+          <div class="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
             <div className="w-[100%] text-center justify-center items-center">
               <motion.p
                 initial={{ scaleX: 0, scaleY: 0 }}
@@ -133,7 +133,7 @@ const LandingPage = () => {
           </div>
         </div>
         <motion.div
-          className="relative"
+          className="relative  bg-white"
           initial={{ scaleX: 0, scaleY: 0 }}
           viewport={{ once: true }}
           whileInView={{ scaleX: 1, scaleY: 1 }}
@@ -152,7 +152,7 @@ const LandingPage = () => {
               Experience the infinity
             </p>
           </div>
-          <div className="w-[100%] lg:absolute  md:absolute top-[400px] lg-[]">
+          <div className="w-[100%] lg:absolute  md:absolute top-[400px] lg-[]  " >
             <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
@@ -221,9 +221,9 @@ const LandingPage = () => {
                   
                   
                 }}
-                className="h-[400px] text-center lg:order-last"
+                className="h-[400px] text-center bg-white lg:order-last"
               >
-                <div className="w-100% h-[400px]  align-center text-center">
+                <div className="w-100% h-[400px]  bg-white align-center text-center">
                   <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
                     Kids Play Area
                   </p>
@@ -247,7 +247,7 @@ const LandingPage = () => {
                   
                 }}
                 div
-                className="h-[400px]   bg-cover bg-center"
+                className="h-[400px]   bg-white bg-cover bg-center"
               >
                 <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
               </motion.div>
@@ -264,6 +264,7 @@ const LandingPage = () => {
             
             
           }}
+          
           class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
         >
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
@@ -289,7 +290,7 @@ const LandingPage = () => {
             
             
           }} class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
-          <div className="h-[400px] text-center ">
+          <div className="h-[400px] bg-white text-center ">
             {" "}
             <div className="w-100% h-[400px]  align-center text-center">
               <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
@@ -304,11 +305,11 @@ const LandingPage = () => {
               </button>
             </div>
           </div>
-          <div className="h-[400px]">
+          <div className="h-[400px] bg-white">
             <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
           </div>
         </motion.div>
-        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0 bg-white  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] text-center lg:order-last">
             <div className="w-100% h-[400px]  align-center text-center">
               <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
@@ -349,7 +350,7 @@ const LandingPage = () => {
             </button>
           </div>
         </motion.div>
-        <div class="w-[100%] p-20   items-center text-center justify-center ">
+        <div class="w-[100%] p-20 bg-white   items-center text-center justify-center ">
           <p className="font-dancing text-2xl font-bold mt-3 align-center">
             Welcome
           </p>
@@ -455,7 +456,7 @@ const LandingPage = () => {
                   
                   
                 }}
-                 className="w-[100%] lg:flex md:flex sm:flex  justify-center align-center text-center ">
+                 className="w-[100%] lg:flex md:flex sm:flex bg-white  justify-center align-center text-center ">
           <div className="lg:w-[90%] md:w-[90%] h-auto  sm:w-[100%] xs:w-[100%] grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
             <div className="h-[500px] w-[100%] bg-slate-600">
               <p className="text-white m-auto">Maps goes here</p>
