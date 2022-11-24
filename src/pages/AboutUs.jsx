@@ -10,7 +10,7 @@ import playground from "../assets/images/map_playground.png"
 import restaurant from "../assets/images/restaurant.png"
 import meeting from "../assets/images/uil_meeting-board.png"
 import swimming from "../assets/images/fa6-solid_person-swimming.png"
-import accomodation from "../assets/images/Vector.png"
+import bg from "../assets/images/bg_cedar.png"
 const AboutUs = () => {
   return (
     <div>
@@ -177,18 +177,18 @@ const AboutUs = () => {
           transition={{ duration: 1.2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="w-[100%] flex flex-col-reverse justify-center items-center "
+          className="w-[100%] flex flex-col-reverse justify-center items-center pb-[7%] "style={{backgroundImage: `url(${bg})`}}
         >
-          <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2">
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
-              <p className="pt-[3%] font-semibold-600 text-black text-center">
+          <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2" >
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse bg-black inset-0 flex items-center justify-center">
+              <p className="pt-[3%]  font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Restaurant</p>
               <img className="h-10 w-10 bg-gray-700" src={restaurant}></img>
             </div>{" "}
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -196,7 +196,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Bar</p>
               <img className="h-10 w-10 bg-gray-700"  src={beer}></img>
             </div>{" "}
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -205,7 +205,7 @@ const AboutUs = () => {
            
               <img className="h-10 w-10 bg-gray-700"  src={swimming}></img>
             </div>
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -213,7 +213,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Kids Playing area</p>
               <img className="h-10 w-10 bg-gray-700"  src={playground} ></img>
             </div>
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -221,7 +221,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Meetings</p>
               <img className="h-10 w-10 bg-gray-700"  src={meeting}></img>
             </div>
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -229,7 +229,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Photography</p>
               <img className="h-10 w-10 bg-gray-700"  src={camera}></img>
             </div>{" "}
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -239,12 +239,12 @@ const AboutUs = () => {
               </p>
               <img className="h-10 w-10 bg-gray-700" src={food}></img>
             </div>{" "}
-            <div className=" h-[200px] width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
               </p>
-              <p className="text-1xl font-bold pt-[3%]">Accomodation</p>
+              <p className="text-1xl  font-bold pt-[3%]">Accomodation</p>
               <img className="h-10 w-10 bg-gray-700" src={baseline}></img>
             </div>
           </div>
