@@ -33,7 +33,7 @@ const AboutUs = () => {
         </motion.div>
       </div>
 
-      {/* Your Content Goes Here */}
+   
 
       <div>
         <div className="w-[100%] ">
