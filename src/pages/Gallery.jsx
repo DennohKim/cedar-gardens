@@ -269,131 +269,131 @@ const Gallery = () => {
             </div>
           </div>
           <div className={toggletab === 3 ? "block" : "hidden"}>
-          <div className="mx-16  sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-2 lg:gap-8">
-              <div className="grid grid-cols-2 gap-8 m-4 ">
-                <div className="h-3/4">
-                  <img
-                    className="h-full w-full object-fit transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135112/Cedar%20Hotel/Edited/IMG_7158_kxazn0.jpg"
-                    alt="garden"
-                  />
+          <div className='container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+                <div className='grid grid-cols-2 gap-4 '>
+                      <div className='h-full w-full'>
+                         <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm-w-full '
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135112/Cedar%20Hotel/Edited/IMG_7158_kxazn0.jpg"
+                          alt='garden image1'
+                            />
+                      </div>
+                      <div className='sm:h-full sm:w-full'>
+                        <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full'
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135337/Cedar%20Hotel/Edited/IMG_2827_hxfhio.jpg"
+                          alt='garden image2'
+                          />
+                      </div>
+                      <div className='col-span-2 sm:h-1/2 sm:w-full lg:h-2/3'>
+                        <img
+                            className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full lg:h-5/6'
+                            src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
+                            alt='garden image3'
+                          />
+                      </div>
                 </div>
-                <div className="h-3/4">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135337/Cedar%20Hotel/Edited/IMG_2827_hxfhio.jpg"
-                    alt="Garden"
-                  />
+                <div className='sm:h-full sm:w-full sm:bottom-36 sm:mx-6 md:h-3/4 relative md:top-0 lg:px-4 '>
+                      <img 
+                        className='object-fill transform transition-all hover:scale-110 rounded-lg h-full w-full md:py-4'
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
+                        alt='garden image4'
+                      />
                 </div>
-                <div className="col-span-2 h-3/4 w-full -my-14">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
-                    alt="garden images"
-                  />
+                <div className='sm:h-full sm:w-full relative sm:bottom-24 lg:bottom-36 md:h-3/5 md:my-4 md:p-4'>
+                <img 
+                      className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full'
+                      src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
+                      alt='garden image4'
+                    />
                 </div>
-              </div>
-              <div className="h-3/4 m-4 ">
-                <img
-                  className="h-full w-full object transform transition-all hover:scale-110"
-                  src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
-                  alt="garden "
-                />
-              </div>
-              <div className="h-full m-4  -my-32">
-                <img
-                  className="h-full w-full object-fit transform transition-all hover:scale-110"
-                  src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
-                  alt="garden images"
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-8  -my-32 ">
-                <div className="h-1/2 w-full">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135354/Cedar%20Hotel/Edited/IMG_7099_fph3oo.jpg"
-                    alt="indiginous trees"
-                  />
+                <div className='sm:grid sm:grid-cols-2 gap-4 relative sm:bottom-16 lg:bottom-28 lg:px-6'>
+                      <div className='sm:h-3/4 sm:w-full'>
+                         <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full '
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135354/Cedar%20Hotel/Edited/IMG_7099_fph3oo.jpg"
+                          alt='garden image1'
+                            />
+                      </div>
+                      <div className='sm:h-3/4 sm:w-full'>
+                        <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full'
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
+                          alt='garden image2'
+                          />
+                      </div>
+                      <div className='col-span-2 sm:h-1/2 sm:w-full sm:-my-16 lg:-my-20 '>
+                        <img
+                            className='object-fill transform transition-all hover:scale-110 rounded-lg h-full w-full'
+                             src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg"
+                            alt='garden image3'
+                          />
+                      </div>
                 </div>
-                <div className="h-1/2 w-full">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
-                    alt="beautiful terrain"
-                  />
-                </div>
-                <div className="col-span-2 h-5/6 w-full -my-48 ">
-                  <img
-                    className="h-full w-full object-fit transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg"
-                    alt="gardens"
-                  />
-                </div>
-              </div>
             </div>
           </div>
           <div className={toggletab === 4 ? "block" : "hidden"}>
-          <div className="mx-16  sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-2 lg:gap-8">
-              <div className="grid grid-cols-2 gap-8 m-4 ">
-                <div className="h-3/4">
-                  <img
-                    className="h-full w-full object-fit transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135112/Cedar%20Hotel/Edited/IMG_7158_kxazn0.jpg"
-                    alt="garden"
-                  />
+          <div className='container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+                <div className='grid grid-cols-2 gap-4 '>
+                      <div className='h-full w-full'>
+                         <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm-w-full '
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135112/Cedar%20Hotel/Edited/IMG_7158_kxazn0.jpg"
+                          alt='garden image1'
+                            />
+                      </div>
+                      <div className='sm:h-full sm:w-full'>
+                        <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full'
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135337/Cedar%20Hotel/Edited/IMG_2827_hxfhio.jpg"
+                          alt='garden image2'
+                          />
+                      </div>
+                      <div className='col-span-2 sm:h-1/2 sm:w-full lg:h-2/3'>
+                        <img
+                            className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full lg:h-5/6'
+                            src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
+                            alt='garden image3'
+                          />
+                      </div>
                 </div>
-                <div className="h-3/4">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135337/Cedar%20Hotel/Edited/IMG_2827_hxfhio.jpg"
-                    alt="Garden"
-                  />
+                <div className='sm:h-full sm:w-full sm:bottom-36 sm:mx-6 md:h-3/4 relative md:top-0 lg:px-4 '>
+                      <img 
+                        className='object-fill transform transition-all hover:scale-110 rounded-lg h-full w-full md:py-4'
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
+                        alt='garden image4'
+                      />
                 </div>
-                <div className="col-span-2 h-3/4 w-full -my-14">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
-                    alt="garden images"
-                  />
+                <div className='sm:h-full sm:w-full relative sm:bottom-24 lg:bottom-36 md:h-3/5 md:my-4 md:p-4'>
+                <img 
+                      className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full'
+                      src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
+                      alt='garden image4'
+                    />
                 </div>
-              </div>
-              <div className="h-3/4 m-4 ">
-                <img
-                  className="h-full w-full object transform transition-all hover:scale-110"
-                  src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
-                  alt="garden "
-                />
-              </div>
-              <div className="h-full m-4  -my-32">
-                <img
-                  className="h-full w-full object-fit transform transition-all hover:scale-110"
-                  src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
-                  alt="garden images"
-                />
-              </div>
-              <div className="grid grid-cols-2 gap-8  -my-32 ">
-                <div className="h-1/2 w-full">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135354/Cedar%20Hotel/Edited/IMG_7099_fph3oo.jpg"
-                    alt="indiginous trees"
-                  />
+                <div className='sm:grid sm:grid-cols-2 gap-4 relative sm:bottom-16 lg:bottom-28 lg:px-6'>
+                      <div className='sm:h-3/4 sm:w-full'>
+                         <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full '
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135354/Cedar%20Hotel/Edited/IMG_7099_fph3oo.jpg"
+                          alt='garden image1'
+                            />
+                      </div>
+                      <div className='sm:h-3/4 sm:w-full'>
+                        <img
+                          className='object-fill transform transition-all hover:scale-110 rounded-lg sm:h-full sm:w-full'
+                          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
+                          alt='garden image2'
+                          />
+                      </div>
+                      <div className='col-span-2 sm:h-1/2 sm:w-full sm:-my-16 lg:-my-20 '>
+                        <img
+                            className='object-fill transform transition-all hover:scale-110 rounded-lg h-full w-full'
+                             src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg"
+                            alt='garden image3'
+                          />
+                      </div>
                 </div>
-                <div className="h-1/2 w-full">
-                  <img
-                    className="h-full w-full transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg"
-                    alt="beautiful terrain"
-                  />
-                </div>
-                <div className="col-span-2 h-5/6 w-full -my-48 ">
-                  <img
-                    className="h-full w-full object-fit transform transition-all hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg"
-                    alt="gardens"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </div>
