@@ -14,6 +14,7 @@ import Meetings from "./pages/services/Meetings";
 import BarAndRestaurant from "./pages/services/BarAndRestaurant";
 import Accomodation from "./pages/services/Accomodation";
 
+
 function App() {
   return (
     <>
