@@ -22,8 +22,8 @@ const LandingPage = () => {
         >
           <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
         </motion.div>
-        <div class=" w-[100%] bg-white  pt-[70px] mt-0 mx-auto pt-10 flex justify-center items-center text-center">
-          <div class="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
+        <div className=" w-[100%] bg-white  pt-[70px] mt-0 mx-auto pt-10 flex justify-center items-center text-center">
+          <div className="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
             <div className="w-[100%] text-center justify-center items-center">
               <motion.p
                 initial={{ scaleX: 0, scaleY: 0 }}
@@ -53,7 +53,7 @@ const LandingPage = () => {
               >
                 Your confort is our concern
               </motion.h4>
-              <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
+              <div className="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
                 <div className="w-[100%]">
                   <motion.img
                     initial={{ scaleX: 0, scaleY: 0 }}
@@ -144,7 +144,7 @@ const LandingPage = () => {
             
           }}
         >
-          <div class=" mx-auto h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135173/Cedar%20Hotel/Edited/IMG_2682_je1dcw.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
+          <div className=" mx-auto h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135173/Cedar%20Hotel/Edited/IMG_2682_je1dcw.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
             <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">
               Facilities and amenities
             </p>
@@ -153,7 +153,7 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="w-[100%] lg:absolute  md:absolute top-[400px] lg-[]  " >
-            <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
+            <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
                 viewport={{ once: true }}
@@ -210,7 +210,7 @@ const LandingPage = () => {
               
             }}
           >
-            <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+            <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
                 viewport={{ once: true }}
@@ -265,7 +265,7 @@ const LandingPage = () => {
             
           }}
           
-          class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
+          className="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
         >
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
@@ -289,7 +289,7 @@ const LandingPage = () => {
             delay: 0.5,
             
             
-          }} class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+          }} className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] bg-white text-center ">
             {" "}
             <div className="w-100% h-[400px]  align-center text-center">
@@ -309,7 +309,7 @@ const LandingPage = () => {
             <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135173/Cedar%20Hotel/Edited/IMG_2682_je1dcw.jpg')]"></div>
           </div>
         </motion.div>
-        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0 bg-white  sm:grid-cols-1 xs:grid-col-1 ">
+        <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0 bg-white  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] text-center lg:order-last">
             <div className="w-100% h-[400px]  align-center text-center">
               <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
@@ -336,7 +336,7 @@ const LandingPage = () => {
                    delay: 0.5,
                    
                    
-                 }}  class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+                 }}  className=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
               Accomodation
@@ -350,14 +350,14 @@ const LandingPage = () => {
             </button>
           </div>
         </motion.div>
-        <div class="w-[100%] p-20 bg-white   items-center text-center justify-center ">
+        <div className="w-[100%] p-20 bg-white   items-center text-center justify-center ">
           <p className="font-dancing text-2xl font-bold mt-3 align-center">
             Welcome
           </p>
           <p className="font-cormorant  uppercase pt-[3%] text-black text-3xl pb-6 ">
             Make memories that last
           </p>
-          <div class="grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+          <div className="grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
             <motion.div    initial={{opacity: 0 }}
           viewport={{ once: true }}
           whileInView={{opacity: 1 }}
