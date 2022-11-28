@@ -11,6 +11,10 @@ import restaurant from "../assets/images/restaurant.png"
 import meeting from "../assets/images/uil_meeting-board.png"
 import swimming from "../assets/images/fa6-solid_person-swimming.png"
 import bg from "../assets/images/bg_cedar.png"
+import { Tabs } from 'flowbite-react';
+
+
+
 const AboutUs = () => {
   return (
     <div>
@@ -42,7 +46,7 @@ const AboutUs = () => {
               y: -100,
               opacity: 0,
             }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 1.2}}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="lg:w-[100%] md:w-[80%] sm:w-[90%] xs:w-[100%] lg:p-[4%] md:p-[4%] sm:p-[4%]  xs:p-[1%] lg:pb-0 md:pb-0 sm:pb-0 xs:pb-0"
@@ -90,70 +94,41 @@ const AboutUs = () => {
               viewport={{ once: true }}
               class="border-b border-gray-200 dark:border-gray-700 ml-[10%]"
             >
-              <ul class="flex -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
-                <li class="mr-2">
-                  <a
-                    id="tabs-contact-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#tabs-home"
-                    role="tab"
-                    aria-controls="tabs-contact"
-                    aria-selected="false"
-                    class="inline-flex p-4 uppercase font-jost rounded-t-lg border-b-2 text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group focus:border-green-700
-                  active"
-                  >
-                    Our Mission
-                  </a>
-                </li>
-
-                <li class="mr-2">
-                  <a
-                    id="tabs-contact-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#tabs-profile"
-                    role="tab"
-                    aria-controls="tabs-contact"
-                    aria-selected="false"
-                    class="inline-flex p-4 uppercase font-jost rounded-t-lg border-b-2 text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group  focus:border-green-700"
-                  >
-                    Our Vision
-                  </a>
-                </li>
-              </ul>
-            </motion.div>
-            <motion.div
-              initial={{
-                y: -100,
-                opacity: 0,
-              }}
-              transition={{ duration: 1.2 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="tab-content p-4 lg:ml-[10%] md:ml-[10%] sm:ml-[5%] ml-[10%]"
-              id="tabs-tabContent"
+          <Tabs.Group 
+          initial={{
+            y: -100,
+            opacity: 0,
+          }}
+          transition={{ duration: 1.2 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="tab-content p-4 lg:ml-[2%] md:ml-[10%] sm:ml-[5%] ml-[10%]"
+          id="tabs-tabContent"
+            aria-label="Tabs with underline"
+            style="underline"
+          >
+            <Tabs.Item title="Mission"  class="inline-flex p-4  pl-2 uppercase font-jost rounded-t-lg border-b-2 text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group focus:border-green-700
+                  active">
+                     <p className="pt-[6%] font-semibold-600 text-black">
+                  Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                  pulvinar posuere tellus erat quisque
+                </p>{" "}
+                <p className="pt-[6%] font-semibold-600 text-black">
+                  Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                  pulvinar posuere tellus erat quisque
+                </p>{" "}
+                <p className="pt-[6%] font-semibold-600 text-black">
+                  Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
+                  pulvinar posuere tellus erat quisque
+                </p>
+             
+            </Tabs.Item>
+            <Tabs.Item 
+              active={true}
+              title="Vision"
+              color="#000000"
             >
-              <div
-                class="tab-pane  show active"
-                id="tabs-home"
-                role="tabpanel"
-                aria-labelledby="tabs-home-tab"
-              >
-                <p className="pt-[6%] font-semibold-600 text-black">
-                  Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                  pulvinar posuere tellus erat quisque
-                </p>{" "}
-                <p className="pt-[6%] font-semibold-600 text-black">
-                  Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                  pulvinar posuere tellus erat quisque
-                </p>
-              </div>
-              <div
-                class="tab-pane "
-                id="tabs-profile"
-                role="tabpanel"
-                aria-labelledby="tabs-profile-tab"
-              >
-                <p className="pt-[6%] font-semibold-600 text-black">
+               <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
                 </p>{" "}
@@ -165,8 +140,11 @@ const AboutUs = () => {
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
                 </p>
-              </div>
+            </Tabs.Item>
+           
+          </Tabs.Group>
             </motion.div>
+     
           </div>
         </div>
         <motion.div
@@ -180,7 +158,7 @@ const AboutUs = () => {
           className="w-[100%] flex flex-col-reverse justify-center items-center pb-[7%] "style={{backgroundImage: `url(${bg})`}}
         >
           <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2" >
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse bg-black inset-0 flex items-center justify-center">
+            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%]  font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -202,7 +180,6 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Swimming</p>
-           
               <img className="h-10 w-10 bg-gray-700"  src={swimming}></img>
             </div>
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
@@ -298,7 +275,6 @@ const AboutUs = () => {
             Our Team
           </p>
         </motion.div>
-
         <Footer />
       </div>
     </div>
