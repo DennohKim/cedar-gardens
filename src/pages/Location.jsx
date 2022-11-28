@@ -1,8 +1,9 @@
 import React from 'react'
+import Map from '../components/MapLocation'
 
 const Location = () => {
   return (
-    <div>Location</div>
+    <Map/>
   )
 }
 
