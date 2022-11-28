@@ -144,7 +144,7 @@ const Navbar = () => {
                       <ul className="mt-4 flex flex-col align-items-center gap-2 text-left text-gray-800 divide-y divide-gray-300">
                         <li>
                           <a
-                            href="#"
+                            href="/services/barandrestaurant"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             RESTAURANT AND BAR
@@ -152,7 +152,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/services/kidsplayground"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             KIDS PLAYGROUND
@@ -160,7 +160,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/services/swimming"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             SWIMMING
@@ -168,7 +168,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/services/meetings"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             MEETINGS
@@ -176,15 +176,15 @@ const Navbar = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/services/parties"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
-                            EVENTS
+                            PARTIES
                           </a>
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/services/accomodation"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             ACCOMODATION
@@ -192,7 +192,7 @@ const Navbar = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="/services/photography"
                             className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 hover:from-blue-600 hover:to-indigo-600 hover:via-pink-400 py-1 block"
                           >
                             PHOTOGRAPHY
