@@ -35,7 +35,7 @@ class Location extends Component {
         <div className="mx-auto">
           <Map
             google={this.props.google}
-            zoom={50}
+            zoom={10}
             initialCenter={{
               lat: 0.14588,
               lng: 37.73208,
