@@ -18,9 +18,9 @@ const LandingPage = () => {
             delay: 0.5,
           
           }}
-          class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background"
+          class=" w-[100%] h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background"
         >
-          <p className="font-dancing  text-red-100 text-6xl  ">Cedar Gardens</p>
+          <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
         </motion.div>
         <div class=" w-[100%] bg-white  pt-[70px] mt-0 mx-auto pt-10 flex justify-center items-center text-center">
           <div class="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
@@ -35,7 +35,7 @@ const LandingPage = () => {
                   
                   
                 }}
-                className="font-dancing text-2xl font-bold mt-3 align-center"
+                className="font-dancing text-2xl font-bold mt-3 text-white align-center"
               >
                 Welcome
               </motion.p>
@@ -144,7 +144,7 @@ const LandingPage = () => {
             
           }}
         >
-          <div class=" mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
+          <div class=" mx-auto h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135173/Cedar%20Hotel/Edited/IMG_2682_je1dcw.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
             <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">
               Facilities and amenities
             </p>
@@ -225,7 +225,7 @@ const LandingPage = () => {
               >
                 <div className="w-100% h-[400px]  bg-white align-center text-center">
                   <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
-                    Kids Play Area
+                    Party Events
                   </p>
                   <p className="pt-[6%] font-semibold-600 text-black">
                     Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
@@ -249,7 +249,7 @@ const LandingPage = () => {
                 div
                 className="h-[400px]   bg-white bg-cover bg-center"
               >
-                <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
+                <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135258/Cedar%20Hotel/Edited/IMG_2723_ffgq32.jpg')]"></div>
               </motion.div>
             </div>
           </motion.div>
@@ -265,7 +265,7 @@ const LandingPage = () => {
             
           }}
           
-          class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
+          class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
         >
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
@@ -306,7 +306,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="h-[400px] bg-white">
-            <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
+            <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135173/Cedar%20Hotel/Edited/IMG_2682_je1dcw.jpg')]"></div>
           </div>
         </motion.div>
         <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0 bg-white  sm:grid-cols-1 xs:grid-col-1 ">
@@ -325,7 +325,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="h-[400px]   bg-cover bg-center">
-            <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
+            <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1669410984/Cedar%20Hotel/Edited/Rectangle_7_1_awvasf.png')]"></div>
           </div>
         </div>
         <motion.div  initial={{scaleY: 0,scaleX:0 }}
@@ -336,7 +336,7 @@ const LandingPage = () => {
                    delay: 0.5,
                    
                    
-                 }}  class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+                 }}  class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
               Accomodation
@@ -377,12 +377,12 @@ const LandingPage = () => {
                    
                    
                  }} 
-                className="h-[40%] w-[100%]  my-5 align-center"
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+                className="h-[40%] w-[100%] bg-cover bg-center  my-5 align-center"
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135334/Cedar%20Hotel/Edited/IMG_7115_jw8cme.jpg"
               />
               <img
-                className="h-[30%] w-[100%]  align-center"
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+                className="h-[30%] w-[100%] bg-cover bg-center  align-center"
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135337/Cedar%20Hotel/Edited/IMG_2827_hxfhio.jpg"
               />
             </motion.div>
             <motion.div  initial={{opacity: 0 }}
@@ -399,8 +399,8 @@ const LandingPage = () => {
                 src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
               />
               <img
-                className="h-[50%] w-[100%] m-5"
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+                className="h-[50%] w-[100%] bg-cover bg-center m-5" 
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135261/Cedar%20Hotel/Edited/IMG_2718_davs8g.jpg"
               />
             </motion.div>
             <motion.div  initial={{opacity: 0 }}
@@ -413,8 +413,8 @@ const LandingPage = () => {
                    
                  }}  className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
               <img
-                className="h-[80%]  w-[100%] m-5"
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+                className="h-[80%]  w-[100%] m-5 bg-cover" 
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_2690_rlmeer.jpg"
               />
             </motion.div >
             <motion.div  initial={{opacity: 0 }}
@@ -428,11 +428,11 @@ const LandingPage = () => {
                  }}  className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
               <img
                 className="h-[50%] w-[100%] m-5 mt-10"
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135181/Cedar%20Hotel/Edited/IMG_2688_ql5nto.jpg"
               />
               <img
                 className="h-[50%] w-[100%] m-5"
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg"
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135113/Cedar%20Hotel/Edited/IMG_7148_bam2yd.jpg"
               />
             </motion.div>
           </div>
