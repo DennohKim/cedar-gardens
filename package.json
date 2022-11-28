@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "framer-motion": "^7.6.9",
+    "google-maps-react": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
