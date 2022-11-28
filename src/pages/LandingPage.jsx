@@ -19,12 +19,12 @@ const LandingPage = () => {
             stiffness: 120,
             type: "spring",
           }}
-          class=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background"
+          className=" w-[100%] h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center flex items-center home-background"
         >
           <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
         </motion.div>
-        <div class="container mx-auto mt-[70px]">
-          <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
+        <div className="container mx-auto mt-[70px]">
+          <div className="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
             <div className="w-[100%] text-center justify-center items-center">
               <motion.p
                 initial={{ scaleX: 0, scaleY: 0 }}
@@ -54,7 +54,7 @@ const LandingPage = () => {
               >
                 Your confort is our concern
               </motion.h4>
-              <div class="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
+              <div className="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
                 <div className="w-[100%]">
                   <motion.img
                     initial={{ scaleX: 0, scaleY: 0 }}
@@ -66,7 +66,7 @@ const LandingPage = () => {
                       stiffness: 120,
                       type: "spring",
                     }}
-                    class="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] "
+                    className="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] "
                     src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg"
                   />
                 </div>
@@ -145,7 +145,7 @@ const LandingPage = () => {
             type: "spring",
           }}
         >
-          <div class=" mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
+          <div className=" mx-auto h-screen bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center pt-20 items-center home-background">
             <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">
               Facilities and amenities
             </p>
@@ -154,7 +154,7 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="w-[100%] lg:absolute  md:absolute top-[400px] lg-[]">
-            <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
+            <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0    sm:grid-cols-1 xs:grid-col-1">
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
                 viewport={{ once: true }}
@@ -211,7 +211,7 @@ const LandingPage = () => {
               type: "spring",
             }}
           >
-            <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+            <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
               <motion.div
                 initial={{ scaleX: 0, scaleY: 0 }}
                 viewport={{ once: false }}
@@ -265,7 +265,7 @@ const LandingPage = () => {
             stiffness: 120,
             type: "spring",
           }}
-          class="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
+          className="lg:mt-[690px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mt-4 max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
         >
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
@@ -281,7 +281,7 @@ const LandingPage = () => {
           </div>
         </motion.div>
 
-        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+        <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] text-center ">
             {" "}
             <div className="w-100% h-[400px]  align-center text-center">
@@ -301,7 +301,7 @@ const LandingPage = () => {
             <div className="w-100% h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135278/Cedar%20Hotel/Edited/IMG_2740_wskrnd.jpg')]"></div>
           </div>
         </div>
-        <div class="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
+        <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0  sm:grid-cols-1 xs:grid-col-1 ">
           <div className="h-[400px] text-center lg:order-last">
             <div className="w-100% h-[400px]  align-center text-center">
               <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
@@ -320,7 +320,7 @@ const LandingPage = () => {
             <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')]"></div>
           </div>
         </div>
-        <div class=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
+        <div className=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
           <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
             <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
               Accomodation
@@ -334,14 +334,14 @@ const LandingPage = () => {
             </button>
           </div>
         </div>
-        <div class="w-[100%] p-20   items-center text-center justify-center ">
+        <div className="w-[100%] p-20   items-center text-center justify-center ">
           <p className="font-dancing text-2xl font-bold mt-3 align-center">
             Welcome
           </p>
           <p className="font-cormorant  uppercase pt-[3%] text-black text-3xl pb-6 ">
             Make memories that last
           </p>
-          <div class="grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
+          <div className="grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
             <div className="h-[900px] flex-col-reverse justify-center align-center items-center flex">
               <img
                 className="h-[40%] w-[100%]  my-5 align-center"
@@ -380,7 +380,7 @@ const LandingPage = () => {
             </div>
           </div>
 
-          {/* <div class="flex_container flex gap-2 flex-wrap">
+          {/* <div className="flex_container flex gap-2 flex-wrap">
           <img className="w-[400px] h-[700px]" src="https://mdbootstrap.com/img/new/slides/041.jpg"/>
           <img className="max-w-[100%] h-auto" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg"/>
           <img className="max-w-[300px]   max-h-[600px]" src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"/>
