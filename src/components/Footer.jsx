@@ -12,7 +12,7 @@ const Footer = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm("service_l66fkjb", "template_tmu2jrg", form.current, '_txc7Qpth0kJ8iDOW')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -36,6 +36,7 @@ const Footer = () => {
             <div>
             <input
               type="text"
+              name="user_name"
               placeholder="Full Name"
               className="border py-2 pl-2 sm:self-center "
             />
@@ -43,6 +44,7 @@ const Footer = () => {
             <div>
             <input
               type="email"
+              name="user_email"
               placeholder="Email Address"
               className="border py-2 pl-2"
             />
@@ -67,7 +69,7 @@ const Footer = () => {
         <div>
           <p className=" font-cormorant font-bold pb-6 text-2xl">Quick Links</p>
           <ul className="flex text-center flex-col gap-4">
-            <li className="hover:opacity-60 hover:underline">
+            <li className="hover:opacity-60 hover:underline ">
               <Link to="/">Home</Link>
             </li>
             <li className="hover:opacity-60 hover:underline">
