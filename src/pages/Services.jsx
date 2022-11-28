@@ -28,7 +28,7 @@ const Services = () => {
 
       <div className="">
         <div className="mx-10 sm:grid sm:grid-cols-1  md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-3 lg:gap-8">
-          <div className="sm:h-full sm:w-full sm:my-auto  md:h-3/4  lg:h-3/4 w-full">
+          <div className="sm:h-full sm:w-full sm:my-auto  md:h-10/12  lg:h-10/12 w-full">
             <img
               className=" sm:h-4/5 sm:mx-auto lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
@@ -43,7 +43,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-auto  md:h-3/4 lg:h-3/4 w-full">
+          <div className="sm:h-full sm:w-full sm:my-auto  md:h-10/12  lg:h-10/12 w-full">
             <img
               className=" sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135261/Cedar%20Hotel/Edited/IMG_2718_davs8g.jpg"
@@ -58,7 +58,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-auto  md:h-3/4 lg:h-3/4 w-full">
+          <div className="sm:h-full sm:w-full sm:my-auto  md:h-10/12  lg:h-10/12 w-full">
             <img
               className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_2690_rlmeer.jpg"
@@ -73,7 +73,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-auto  md:h-3/4 lg:h-3/4 w-full -my-20">
+          <div className="sm:h-full sm:w-full sm:my-auto  md:h-10/12  lg:h-10/12 w-full">
             <img
               className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_7154_yy55dw.jpg"
@@ -88,7 +88,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-auto  md:h-3/4 lg:h-3/4 w-full -my-20">
+          <div className="sm:h-full sm:w-full sm:my-auto  md:h-10/12  lg:h-10/12 w-full">
             <img
               className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135258/Cedar%20Hotel/Edited/IMG_2723_ffgq32.jpg"
@@ -103,7 +103,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-auto  md:h-3/4 lg:h-3/4 w-full -my-20">
+          <div className="sm:h-full sm:w-full sm:my-auto  md:h-10/12  lg:h-10/12 w-full">
             <img
               className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135100/Cedar%20Hotel/Edited/IMG_7149_gyst5m.jpg"

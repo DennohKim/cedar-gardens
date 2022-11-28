@@ -13,6 +13,7 @@ const Footer = () => {
     e.preventDefault();
 
     emailjs.sendForm("service_l66fkjb", "template_tmu2jrg", form.current, '_txc7Qpth0kJ8iDOW')
+
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -69,7 +70,9 @@ const Footer = () => {
         <div>
           <p className=" font-cormorant font-bold pb-6 text-2xl">Quick Links</p>
           <ul className="flex text-center flex-col gap-4">
+
             <li className="hover:opacity-60 hover:underline ">
+
               <Link to="/">Home</Link>
             </li>
             <li className="hover:opacity-60 hover:underline">

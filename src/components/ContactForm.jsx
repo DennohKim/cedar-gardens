@@ -5,7 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 function ContactForm() {
   const icons = { fontSize: "40px", marginRight: "40px", color: "#287216" };
   return (
-    <div className="font-jost container my-24 lg:px-6 mx-auto ">
+    <div className="font-jost container my-24 lg:px-6 mx-auto">
       <section className="mb-32 text-black-900">
         <div className="flex justify-center">
           <div className="text-center lg:max-w-3xl md:max-w-xl">
