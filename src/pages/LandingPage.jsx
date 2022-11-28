@@ -3,10 +3,12 @@ import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
+
 const LandingPage = () => {
   return (
     <>
       <Navbar />
+     
       {/* Your Content Goes Here */}
       <div>
         <motion.div
