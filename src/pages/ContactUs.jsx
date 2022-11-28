@@ -7,8 +7,6 @@ import { motion } from "framer-motion";
 const ContactUs = () => {
   return (
     <div>
-      
-
       <Navbar />
 
       <div className="my-10">
