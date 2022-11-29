@@ -95,7 +95,7 @@ const BarAndRestaurant = () => {
       <MainBG />
       <div className="w-[100%] justify-center flex flex-col-reverse items-center align-center">
         <p className="font-cormorant font-bold uppercase text-4xl">
-          Todays Special
+          Today's Special
         </p>
         <p className="font-dancing text-3xl">Menu that fits you palatte</p>
       </div>
