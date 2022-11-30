@@ -2,11 +2,12 @@ import React from "react";
 
 function Swimming() {
   return (
+    <>
     <div class="container px-6 py-10 mx-auto font-jost">
       <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
         <img
           class="object-cover w-full lg:mx-6 lg:w-1/2 h-72 lg:h-96"
-          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135334/Cedar%20Hotel/Edited/IMG_7115_jw8cme.jpg"
+          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_2690_rlmeer.jpg"
           alt=""
         />
 
@@ -30,13 +31,15 @@ function Swimming() {
         <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
           <img
             class="object-cover w-full lg:w-1/2 h-72 lg:h-96"
-            src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135334/Cedar%20Hotel/Edited/IMG_7115_jw8cme.jpg"
+            src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_2690_rlmeer.jpg"
             alt=""
           />
         </div>
       </div>
     </div>
+    </>
   );
+  
 }
 
 export default Swimming;
