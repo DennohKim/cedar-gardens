@@ -1,10 +1,26 @@
-import React from "react";
+import React,  { useRef } from "react";
 import { Link } from "react-router-dom";
 import LogoWhite from "../assets/images/LogoWhite.svg";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import emailjs from '@emailjs/browser';
 
 const Footer = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_l66fkjb", "template_tmu2jrg", form.current, '_txc7Qpth0kJ8iDOW')
+
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <footer className="bg-dark">
       <div className="w-full bg-dark flex flex-col gap-16 mb-16">
@@ -17,35 +33,46 @@ const Footer = () => {
           </h2>
         </div>
         <div className="w-11/12 mx-auto">
-          <form action="" className="flex justify-center gap-4 font-jost">
+          <form ref={form} onSubmit={sendEmail} className="flex flex-wrap justify-center gap-4 font-jost">
+            <div>
             <input
               type="text"
+              name="user_name"
               placeholder="Full Name"
-              className="border py-2 pl-2"
+              className="border py-2 pl-2 sm:self-center "
             />
+            </div>
+            <div>
             <input
               type="email"
+              name="user_email"
               placeholder="Email Address"
               className="border py-2 pl-2"
             />
-            <button
+            </div>
+           <div>
+             <button
               type="submit"
               className="py-2 px-8 bg-primary-color text-white"
             >
               Subscribe Now
             </button>
+           </div>
+           
           </form>
         </div>
       </div>
       <div className="border-t w-11/12 mx-auto border-white mb-10" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between justify-items-center align-items-center text-white font-jost mb-10">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 justify-between justify-items-center align-items-center text-white font-jost mb-10">
         <div className="">
           <img src={LogoWhite} alt="Logo" />
         </div>
         <div>
           <p className=" font-cormorant font-bold pb-6 text-2xl">Quick Links</p>
-          <ul className="flex flex-col gap-4">
-            <li className="hover:opacity-60 hover:underline">
+          <ul className="flex text-center flex-col gap-4">
+
+            <li className="hover:opacity-60 hover:underline ">
+
               <Link to="/">Home</Link>
             </li>
             <li className="hover:opacity-60 hover:underline">
@@ -63,10 +90,10 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p className="font-cormorant font-bold pb-6 text-2xl">Contact Us</p>
-          <ul className="flex flex-col gap-4">
+          <p className="font-cormorant font-bold pb-6 text-2xl text-center">Contact Us</p>
+          <ul className="flex flex-col text-center gap-4">
             <li className="hover:opacity-60 hover:underline" >
-              {" "}
+              
               <span className="font-semibold">Phone: </span>
               <a href="tel:+254 791 555 111">+254 791 555 111</a>
             </li>
@@ -85,7 +112,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="font-cormorant font-bold pb-6 text-2xl">Follow Us</p>
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col text-center gap-4">
             <li className="flex gap-3 align-center hover:opacity-60">
               <FaFacebook className="self-center"/>
               <a href="">Facebook</a>
