@@ -69,16 +69,16 @@ const AboutUs = () => {
             className="w-[100%] flex gap-3 justify-center align-center items-center lg:p-[4%] md:p-[4%] sm:p-[4%] p-[4%] xs:p-[1%] "
           >
             <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 lg:w-[90%] md:w-[90%] sm:w-[95%] w-[100%] ">
-              <div className="lg:col-span-2 md:col-span-3 sm:col-span-1 xs:col-span-1 w-[100%] bg-[url('https://mdbootstrap.com/img/new/slides/041.jpg')] bg-cover bg-center h-[700px]"></div>
+              <div className="lg:col-span-2 md:col-span-3 sm:col-span-1 xs:col-span-1 w-[100%] bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135200/Cedar%20Hotel/Edited/IMG_2726_cxcoti.jpg')] bg-cover bg-center h-[700px]"></div>
               <div className="w-[100%]  bg-cover bg-center h-[100%] bg-white flex  items-end sm:mt-3 mt-3 lg:mt-0 md:mt-0 lg:ml-2 md:ml-2">
                 <img
-                  src="https://mdbootstrap.com/img/new/slides/041.jpg "
+                  src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135184/Cedar%20Hotel/Edited/IMG_2685_n2slab.jpg"
                   className="object-cover h-[100%]  w-[100%] lg:h-[51%] md:h-[51%] sm:h-[100%] "
                 />
               </div>{" "}
               <div className="w-[100%]  bg-cover bg-center h-[100%] bg-white flex  items-end sm:mt-3 mt-6 lg:mt-0 md:mt-0 lg:ml-4 md:ml-4 ">
                 <img
-                  src="https://mdbootstrap.com/img/new/slides/041.jpg "
+                  src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135276/Cedar%20Hotel/Edited/IMG_2752_dijoph.jpg "
                   className="object-cover lg:h-[51%] md:h-[51%] sm:h-[100%] h-[100%] sm:mt-3  w-[100%]"/>
               </div>
             </div>
@@ -164,7 +164,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Restaurant</p>
-              <img className="h-10 w-10 bg-gray-700" src={restaurant}></img>
+              <img className="h-10 w-10 " src={restaurant}></img>
             </div>{" "}
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -172,7 +172,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Bar</p>
-              <img className="h-10 w-10 bg-gray-700"  src={beer}></img>
+              <img className="h-10 w-10 "  src={beer}></img>
             </div>{" "}
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -180,7 +180,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Swimming</p>
-              <img className="h-10 w-10 bg-gray-700"  src={swimming}></img>
+              <img className="h-10 w-10 "  src={swimming}></img>
             </div>
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -188,7 +188,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Kids Playing area</p>
-              <img className="h-10 w-10 bg-gray-700"  src={playground} ></img>
+              <img className="h-10 w-10"  src={playground} ></img>
             </div>
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -196,7 +196,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Meetings</p>
-              <img className="h-10 w-10 bg-gray-700"  src={meeting}></img>
+              <img className="h-10 w-10 "  src={meeting}></img>
             </div>
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -204,7 +204,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl font-bold pt-[3%]">Photography</p>
-              <img className="h-10 w-10 bg-gray-700"  src={camera}></img>
+              <img className="h-10 w-10"  src={camera}></img>
             </div>{" "}
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -214,7 +214,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">
                 Birthday/Graduation Party
               </p>
-              <img className="h-10 w-10 bg-gray-700" src={food}></img>
+              <img className="h-10 w-10 " src={food}></img>
             </div>{" "}
             <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
@@ -222,7 +222,7 @@ const AboutUs = () => {
                 pulvinar posuere tellus erat quisque
               </p>
               <p className="text-1xl  font-bold pt-[3%]">Accomodation</p>
-              <img className="h-10 w-10 bg-gray-700" src={baseline}></img>
+              <img className="h-10 w-10 " src={baseline}></img>
             </div>
           </div>
           <p className="font-cormorant uppercase pb-[2%]  font-bold text-black text-center text-3xl ">
