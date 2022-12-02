@@ -9,8 +9,16 @@ class LandingPage extends Component {
 
     render() {
     const style = {
-      width: "600px",
+      width: "45%",
       height: "600px",
+      borderRadius:"10px",
+      margin: "10px",
+    };
+    const style1 = {
+      width: "90%",
+      height: "600px",
+      borderRadius:"10px",
+      margin: "10px",
     };
     return (
       <div style={{backgroundImage: `url(${bg})`}}>
@@ -470,9 +478,9 @@ class LandingPage extends Component {
                 
               }}
                className="w-[100%] lg:flex md:flex sm:flex bg-white  justify-center align-center text-center ">
-        <div className="lg:w-[90%] md:w-[90%] h-auto  sm:w-[100%] xs:w-[100%] grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
-          <div className="h-[500px] w-[300px] bg-slate-600">
-          <Map
+        <div className="lg:w-[90%] md:w-[90%] h-auto  sm:w-[100%] xs:w-[100%] grid  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  ">
+        <div className="h-[500px] w-[300px] bg-slate-600">
+          <Map className="lg:visible md:invisible invisible"
         style={style}
             google={this.props.google}
             zoom={10}
@@ -480,12 +488,26 @@ class LandingPage extends Component {
               lat: 0.14588,
               lng: 37.73208,
             }}
-          
           >
             <Marker />
           </Map>
-          </div>
-          <div className="h-[500px] w-[100%] text-left">
+         
+          </div> 
+       
+          <Map className=" lg:invisible md:visible sm:visible xs:visible invisible"
+        style={style1}
+            google={this.props.google}
+            zoom={10}
+            initialCenter={{
+              lat: 0.14588,
+              lng: 37.73208,
+            }}
+          >
+            <Marker />
+          </Map>
+         
+        
+          <div className="h-[500px] w-[100%] text-left pt-10">
             <p className="font-dancing mt-10 ml-10 text-black text-3xl">
               Location
             </p>
