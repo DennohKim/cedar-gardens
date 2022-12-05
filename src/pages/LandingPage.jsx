@@ -28,10 +28,10 @@ class LandingPage extends Component {
       >
         <p className="font-dancing  text-white text-6xl  ">Cedar Gardens</p>
       </motion.div>
-      <div className=" w-[100%] bg-white pt-[70px] mt-0 mx-auto flex justify-center items-center text-center">
+      <div className=" w-[100%] bg-white pt-[70px] mt-0 mx-auto flex justify-center items-center ">
         <div className="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
-          <div className="w-[100%] text-center justify-center items-center">
-            <p
+          <div className="w-[100%] justify-center items-center">
+            <motion.p
               initial={{ scaleX: 0, scaleY: 0 }}
               viewport={{ once: true }}
               whileInView={{ scaleX: 1, scaleY: 1 }}
@@ -41,10 +41,10 @@ class LandingPage extends Component {
                 
                 
               }}
-              className="font-dancing text-2xl font-bold mt-3 text-white align-center"
+              className="font-dancing text-2xl font-bold my-3 text-[#000]"
             >
               Welcome
-            </p>
+            </motion.p>
             <motion.h4
               initial={{ scaleX: 0, scaleY: 0 }}
               viewport={{ once: true }}
@@ -55,7 +55,7 @@ class LandingPage extends Component {
                 
                 
               }}
-              className="font-cormorant uppercase font-bold text-4xl m-8"
+              className="font-cormorant uppercase font-bold text-4xl"
             >
               Your comfort is our concern
             </motion.h4>
@@ -121,7 +121,7 @@ class LandingPage extends Component {
               <p className="text-1xl pt-2 font-jost">Hotel Manager</p>
             </motion.div>
           </div>
-          <div className="w-[100%]  justify-center items-center align-center">
+          <div className="w-[100%] h-full  justify-center items-center align-center">
             <motion.img
               initial={{ scaleX: 0, scaleY: 0 }}
               viewport={{ once: true }}
@@ -132,7 +132,7 @@ class LandingPage extends Component {
                 
                 
               }}
-              className="h-[70%] xs:h-[100%] w-[100%] lg:w-[90%] md:w-[70%] sm:w-[100%] xs:w-[100%]  "
+              className="h-4/5 w-full object-cover "
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
             />
           </div>
