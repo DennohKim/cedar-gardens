@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/images/Logo.svg";
+import Logo from "../assets/images/LogoMain.png";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
