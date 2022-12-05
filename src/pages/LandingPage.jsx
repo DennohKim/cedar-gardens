@@ -16,11 +16,11 @@ class LandingPage extends Component {
       <div style={{backgroundImage: `url(${bg})`}}>
         <Navbar/>
       <motion.div
-        initial={{ scaleX: 0, scaleY: 0 }}
+        initial={{ scaleX: 0.6, scaleY: 0.6 }}
         viewport={{ once: true }}
         whileInView={{ scaleX: 1, scaleY: 1 }}
         transition={{
-          duration: 0.8,
+          duration: 0.5,
           delay: 0.5,
         
         }}
@@ -31,7 +31,7 @@ class LandingPage extends Component {
       <div className=" w-[100%] bg-white pt-[70px] mt-0 mx-auto flex justify-center items-center text-center">
         <div className="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
           <div className="w-[100%] text-center justify-center items-center">
-            <motion.p
+            <p
               initial={{ scaleX: 0, scaleY: 0 }}
               viewport={{ once: true }}
               whileInView={{ scaleX: 1, scaleY: 1 }}
@@ -44,7 +44,7 @@ class LandingPage extends Component {
               className="font-dancing text-2xl font-bold mt-3 text-white align-center"
             >
               Welcome
-            </motion.p>
+            </p>
             <motion.h4
               initial={{ scaleX: 0, scaleY: 0 }}
               viewport={{ once: true }}
@@ -55,9 +55,9 @@ class LandingPage extends Component {
                 
                 
               }}
-              className="font-cormorant uppercase font-bold text-3xl m-8"
+              className="font-cormorant uppercase font-bold text-4xl m-8"
             >
-              Your confort is our concern
+              Your comfort is our concern
             </motion.h4>
             <div className="grid mt-8 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
               <div className="w-[100%]">
@@ -71,7 +71,7 @@ class LandingPage extends Component {
                     
                     
                   }}
-                  class="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] "
+                  className="object-cover h-48 lg:w-96 w-[100%] md:w-96 sm:w-[100%] xs:w-[100%] "
                   src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg"
                 />
               </div>
@@ -87,7 +87,7 @@ class LandingPage extends Component {
                   
                 }}
               >
-                <p>
+                <p className="font-jost">
                   Cedar is the place where you can make memories. We offer the
                   following services: Restaurant, Swimming, Bar, Kids Play
                   Area, Meetings and Accomodation.
@@ -109,7 +109,7 @@ class LandingPage extends Component {
                 
               }}
             >
-              <p>
+              <p className="font-jost">
                 “We have got the best Restaurant in town. The hotel is a must
                 see. The swimming pool and garden are beautiful. We are a
                 well-established and reputable caterer, hotel, conference
@@ -117,8 +117,8 @@ class LandingPage extends Component {
                 everyone. Our main goal is to provide our clients with the
                 very best service and experience possible.”
               </p>
-              <p className="font-bold text-1xl pt-4">Lorem Ipsum</p>
-              <p className="text-1xl pt-2">Hotel Manager</p>
+              <p className="font-bold text-1xl pt-4 font-jost">Lorem Ipsum</p>
+              <p className="text-1xl pt-2 font-jost">Hotel Manager</p>
             </motion.div>
           </div>
           <div className="w-[100%]  justify-center items-center align-center">
@@ -181,11 +181,11 @@ class LandingPage extends Component {
                 <p className="font-cormorant uppercase  font-bold text-black text-3xl pb-6 ">
                   Restaurants
                 </p>
-                <p className="pt-[6%] font-semibold-600 text-black">
+                <p className="pt-[6%] font-semibold-600 text-black font-jost">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
                 </p>
-                <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+                <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest font-jost">
                   Learn More
                 </button>
               </div>
@@ -235,11 +235,11 @@ class LandingPage extends Component {
                 <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
                   Party Events
                 </p>
-                <p className="pt-[6%] font-semibold-600 text-black">
+                <p className="pt-[6%] font-semibold-600 text-black font-jost">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
                 </p>
-                <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+                <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest font-jost">
                   Learn More
                 </button>
               </div>
@@ -280,11 +280,11 @@ class LandingPage extends Component {
           <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
             Party Events
           </p>
-          <p className="pt-[6%] font-semibold-600 text-white">
+          <p className="pt-[6%] font-semibold-600 text-white font-jost">
             Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
             pulvinar posuere tellus erat quisque
           </p>
-          <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+          <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest font-jost">
             Learn More
           </button>
         </div></div>
@@ -305,11 +305,11 @@ class LandingPage extends Component {
             <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
               Swimming
             </p>
-            <p className="pt-[6%] font-semibold-600 text-black">
+            <p className="pt-[6%] font-semibold-600 text-black font-jost">
               Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
               pulvinar posuere tellus erat quisque
             </p>
-            <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+            <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest font-jost">
               Learn More
             </button>
           </div>
@@ -321,14 +321,14 @@ class LandingPage extends Component {
       <div className="w-[70%] mx-auto  grid lg:grid-cols-2 gap-0 bg-white  sm:grid-cols-1 xs:grid-col-1 ">
         <div className="h-[400px] text-center lg:order-last">
           <div className="w-100% h-[400px]  align-center text-center">
-            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
+            <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6  ">
               Kids Play Area
             </p>
-            <p className="pt-[6%] font-semibold-600 text-black">
+            <p className="pt-[6%] font-semibold-600 text-black font-jost">
               Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
               pulvinar posuere tellus erat quisque
             </p>
-            <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+            <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest font-jost">
               Learn More
             </button>
           </div>
@@ -353,11 +353,11 @@ class LandingPage extends Component {
           <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
             Accomodation
           </p>
-          <p className="pt-[6%] font-semibold-600 text-white">
+          <p className="pt-[6%] font-semibold-600 text-white font-jost">
             Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
             pulvinar posuere tellus erat quisque
           </p>
-          <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest">
+          <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-widest font-jost">
             Learn More
           </button>
         </div>
