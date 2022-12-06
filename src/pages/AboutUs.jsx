@@ -135,11 +135,11 @@ const AboutUs = () => {
                <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
-                </p>{" "}
+                </p>
                 <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
-                </p>{" "}
+                </p>
                 <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
