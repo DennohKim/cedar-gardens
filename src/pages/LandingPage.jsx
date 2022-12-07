@@ -319,7 +319,7 @@ class LandingPage extends Component {
             </div>
           </div>
           <div className="h-[400px]   bg-cover bg-center">
-            <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1669410984/Cedar%20Hotel/Edited/Rectangle_7_1_awvasf.png')]"></div>
+            <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1670355436/Cedar%20Hotel/play%20area/play%20area/IMG_2711_mukcs4.jpg')]"></div>
           </div>
         </motion.div>
         <motion.div
@@ -351,7 +351,7 @@ class LandingPage extends Component {
           <p className="font-dancing text-2xl font-bold mt-3 align-center">
             Gallery
           </p>
-          <p className="font-cormorant font-bold uppercase pt-[3%] text-black text-3xl pb-6">
+          <p className="font-cormorant font-bold uppercase pt-[3%] text-black text-4xl pb-6">
             Make memories that last
           </p>
           <div className="grid space-x-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
