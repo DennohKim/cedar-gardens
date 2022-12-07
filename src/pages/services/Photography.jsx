@@ -32,7 +32,7 @@ const Photography = () => {
         >
           <div className="h-[100%] w-[100%] overlay-color flex justify-center">
             <h2 className="text-center text-4xl font-jost text-white font-semibold tracking-[2rem] self-center hover:scale-105 hover:ease-in-out animate-pulse">
-              GALLERY
+              SERVICES
             </h2>
           </div>
         </motion.div>
