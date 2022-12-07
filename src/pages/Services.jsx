@@ -41,7 +41,7 @@ const Services = () => {
               <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
                 <h1 className="font-bold font-jost">BAR AND RESTAURANT</h1>
                 <p className="font-jost">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                Our restaurants have exceptional food and drinks lists, professionally trained chefs and service-oriented waitstaff. 
                 </p>
               </div>
             </div>
@@ -56,7 +56,8 @@ const Services = () => {
               <div className="  bg-white px-6 py-2 mx-2  opacity-70  ">
                 <h1 className="font-bold font-jost">PARTY AND EVENTS</h1>
                 <p className="font-jost">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                Our dining facilities are designed for private celebrations, corporate events, informal meetings and special occasions.
+                  Our event coordinators can customize your special occasions to create an unforgettable event. 
                 </p>
               </div>
             </div>
@@ -71,7 +72,7 @@ const Services = () => {
               <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
                 <h1 className="font-bold font-jost">SWIMMING</h1>
                 <p className="font-jost">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                Have Fun with the Family in the swimming pool. Jump in and swim and splash together. 
                 </p>
               </div>
             </div>
@@ -86,7 +87,7 @@ const Services = () => {
               <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
                 <h1 className="font-bold font-jost">KIDS PLAY AREA</h1>
                 <p className="font-jost">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                We also cater to our younger clients by offering a safe play area with bouncing castles, art activities and face painting on weekends.
                 </p>
               </div>
             </div>
@@ -101,7 +102,7 @@ const Services = () => {
               <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
                 <h1 className="font-bold font-jost">MEETINGS</h1>
                 <p className="font-jost">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                Sample our outdoor spaces for special meetings, or to catch up on your favorite sports on large HD TV screens.
                 </p>
               </div>
             </div>
@@ -116,7 +117,7 @@ const Services = () => {
               <div className=" bg-white px-6 py-2 mx-2   opacity-70 ">
                 <h1 className="font-bold font-jost">ACCOMODATION</h1>
                 <p className="font-jost">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+                Fantastic hotel in Meru. Good location, Clean Rooms and some of the best staff in any hotel you've been to.
                 </p>
               </div>
             </div>
