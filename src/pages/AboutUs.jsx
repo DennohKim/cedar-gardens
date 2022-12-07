@@ -135,11 +135,11 @@ const AboutUs = () => {
                <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
-                </p>{" "}
+                </p>
                 <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
-                </p>{" "}
+                </p>
                 <p className="pt-[6%] font-semibold-600 text-black">
                   Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                   pulvinar posuere tellus erat quisque
@@ -161,8 +161,8 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="w-[100%] flex flex-col-reverse justify-center items-center pb-[7%] "style={{backgroundImage: `url(${bg})`}}
         >
-          <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2" >
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+          <div className="w-[90%] grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2 font-jost" >
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse gap-2 inset-0 flex items-center justify-center ">
               <p className="pt-[3%]  font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -170,7 +170,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Restaurant</p>
               <img className="h-10 w-10 " src={restaurant}></img>
             </div>{" "}
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -178,7 +178,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Bar</p>
               <img className="h-10 w-10 "  src={beer}></img>
             </div>{" "}
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -186,7 +186,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Swimming</p>
               <img className="h-10 w-10 "  src={swimming}></img>
             </div>
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -194,7 +194,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Kids Playing area</p>
               <img className="h-10 w-10"  src={playground} ></img>
             </div>
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -202,7 +202,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Meetings</p>
               <img className="h-10 w-10 "  src={meeting}></img>
             </div>
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -210,7 +210,7 @@ const AboutUs = () => {
               <p className="text-1xl font-bold pt-[3%]">Photography</p>
               <img className="h-10 w-10"  src={camera}></img>
             </div>{" "}
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque
@@ -220,7 +220,7 @@ const AboutUs = () => {
               </p>
               <img className="h-10 w-10 " src={food}></img>
             </div>{" "}
-            <div className=" h-[200px] bg-[#D4D4D8] p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
+            <div className=" h-[230px] bg-[#D4D4D8]/60 p-2 width-[100%] flex-col-reverse inset-0 flex items-center justify-center">
               <p className="pt-[3%] font-semibold-600 text-black text-center">
                 Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
                 pulvinar posuere tellus erat quisque

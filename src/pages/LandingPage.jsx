@@ -140,10 +140,10 @@ class LandingPage extends Component {
         >
           <div className=" mx-auto h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135173/Cedar%20Hotel/Edited/IMG_2682_je1dcw.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background">
             <div className="h-[100%] w-[100%] overlay-color pt-20">
-              <p className="font-dancing pt-[10%] text-white text-5xl pb-6 ">
+              <p className="font-dancing pt-[10%] text-white sm:text-3xl md:text-3xl lg:text-4xl pb-6 ">
                 Facilities and amenities
               </p>
-              <p className="font-cormorant font-bold text-white text-5xl uppercase ">
+              <p className="font-cormorant font-bold text-white sm:text-4xl md:text-4xl lg:text-5xl uppercase ">
                 Experience the infinity
               </p>
             </div>
@@ -251,7 +251,7 @@ class LandingPage extends Component {
         >
           <div className="w-[100%] h-[100%] overlay-color flex items-center align-center justify-center">
             <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
-              <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 font-bold ">
+              <p className="font-cormorant uppercase pt-[10%] text-white sm:text-4xl md:text-4xl lg:text-5xl pb-6 font-bold ">
                 Meetings
               </p>
               <p className="pt-[6%] font-semibold-600 text-white font-jost">
@@ -319,7 +319,7 @@ class LandingPage extends Component {
             </div>
           </div>
           <div className="h-[400px]   bg-cover bg-center">
-            <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1669410984/Cedar%20Hotel/Edited/Rectangle_7_1_awvasf.png')]"></div>
+            <div className="w-100%  h-[100%]  bg-cover bg-center  align-center text-center bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1670355436/Cedar%20Hotel/play%20area/play%20area/IMG_2711_mukcs4.jpg')]"></div>
           </div>
         </motion.div>
         <motion.div
@@ -334,7 +334,7 @@ class LandingPage extends Component {
         >
           <div className="h-[100%] w-[100%] overlay-color justify-center text-center flex items-center">
             <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
-              <p className="font-cormorant uppercase pt-[10%] text-white text-5xl pb-6 ">
+              <p className="font-cormorant uppercase pt-[10%] text-white sm:text-4xl md:text-4xl lg:text-5xl pb-6 ">
                 Accomodation
               </p>
               <p className="pt-[6%] font-semibold-600 text-white font-jost">
@@ -351,7 +351,7 @@ class LandingPage extends Component {
           <p className="font-dancing text-2xl font-bold mt-3 align-center">
             Gallery
           </p>
-          <p className="font-cormorant font-bold uppercase pt-[3%] text-black text-3xl pb-6">
+          <p className="font-cormorant font-bold uppercase pt-[3%] text-black text-4xl pb-6">
             Make memories that last
           </p>
           <div className="grid space-x-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
