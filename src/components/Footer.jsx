@@ -1,6 +1,6 @@
 import React,  { useRef } from "react";
 import { Link } from "react-router-dom";
-import LogoWhite from "../assets/images/LogoWhite.svg";
+import LogoWhite from "../assets/images/LogoWhite.png";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
