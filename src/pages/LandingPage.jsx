@@ -168,12 +168,13 @@ class LandingPage extends Component {
                     Restaurants
                   </p>
                   <p className="pt-[6%] font-semibold-600 text-black font-jost">
-                    Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                    pulvinar posuere tellus erat quisque
+                  Our restaurants have exceptional food and drinks lists, professionally trained chefs and service-oriented waitstaff. 
                   </p>
+                  <Link to="/services/barandrestaurant">
                   <button className="py-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
                     Learn More
-                  </button>
+                  </button></Link>
+                  
                 </div>
               </motion.div>
               <motion.div
@@ -215,13 +216,16 @@ class LandingPage extends Component {
                   <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
                     Party Events
                   </p>
-                  <p className="pt-[6%] font-semibold-600 text-black font-jost">
-                    Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                    pulvinar posuere tellus erat quisque
+                  <p className="pt-[6%] px-3 font-semibold-600 text-black font-jost">
+                  Our dining facilities are designed for private celebrations, corporate events, informal meetings and special occasions.
+                  Our event coordinators can customize your special occasions to create an unforgettable event. 
                   </p>
+                  <Link to="/services/parties">
                   <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
                     Learn More
                   </button>
+                  </Link>
+                  
                 </div>
               </motion.div>
               <motion.div
@@ -255,12 +259,13 @@ class LandingPage extends Component {
                 Meetings
               </p>
               <p className="pt-[6%] font-semibold-600 text-white font-jost">
-                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                pulvinar posuere tellus erat quisque
+              Sample our outdoor spaces for special meetings, or to catch up on your favorite sports on large HD TV screens.
               </p>
+              <Link to="/services/meetings">
               <button className="p-5 mt-[10%] uppercase w-[80%] mx-auto bg-gray-300 tracking-[0.8rem] font-jost">
                 Learn More
-              </button>
+              </button></Link>
+              
             </div>
           </div>
         </motion.div>
@@ -281,13 +286,15 @@ class LandingPage extends Component {
               <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6 ">
                 Swimming
               </p>
-              <p className="pt-[6%] font-semibold-600 text-black font-jost">
-                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                pulvinar posuere tellus erat quisque
+              <p className="pt-[6%] px-3 font-semibold-600 text-black font-jost">
+              Have Fun with the Family in the swimming pool. Jump in and swim and splash together. 
+
               </p>
+              <Link to="/services/swimming">
               <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
                 Learn More
-              </button>
+              </button></Link>
+              
             </div>
           </div>
           <div className="h-[400px] bg-white">
@@ -309,13 +316,15 @@ class LandingPage extends Component {
               <p className="font-cormorant uppercase pt-[10%] font-bold text-black text-3xl pb-6  ">
                 Kids Play Area
               </p>
-              <p className="pt-[6%] font-semibold-600 text-black font-jost">
-                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                pulvinar posuere tellus erat quisque
+              <p className="pt-[6%] px-3 font-semibold-600 text-black font-jost">
+              We also cater to our younger clients by offering a safe play area with bouncing castles, art activities and face painting on weekends.
               </p>
+              <Link to="/services/kidsplayground">
               <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
                 Learn More
               </button>
+              </Link>
+              
             </div>
           </div>
           <div className="h-[400px]   bg-cover bg-center">
@@ -338,12 +347,14 @@ class LandingPage extends Component {
                 Accomodation
               </p>
               <p className="pt-[6%] font-semibold-600 text-white font-jost">
-                Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-                pulvinar posuere tellus erat quisque
+              Fantastic hotel in Meru. Good location, Clean Rooms and some of the best staff in any hotel you've been to.
               </p>
+              <Link to="/services/accomodation">
               <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-[0.8rem] font-jost">
                 Learn More
               </button>
+              </Link>
+             
             </div>
           </div>
         </motion.div>

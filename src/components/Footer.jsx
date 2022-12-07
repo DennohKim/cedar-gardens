@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import LogoWhite from "../assets/images/LogoWhite.svg";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
 import emailjs from '@emailjs/browser';
 
 const Footer = () => {
@@ -115,15 +116,15 @@ const Footer = () => {
           <ul className="flex flex-col text-center gap-4">
             <li className="flex gap-3 align-center hover:opacity-60">
               <FaFacebook className="self-center"/>
-              <a href="">Facebook</a>
+              <a href="https://www.facebook.com/profile.php?id=100077381140421">Facebook</a>
             </li>
             <li className="flex gap-3 align-center hover:opacity-60">
               <AiFillInstagram className="self-center"/>
-              <a href="">Instagram</a>
+              <a href="https://www.instagram.com/cedargardensandhotel/">Instagram</a>
             </li>
             <li className="flex gap-3 align-center hover:opacity-60">
-              <FaTiktok className="self-center"/>
-              <a href="">Tik Tok</a>
+              <IoLogoWhatsapp className="self-center"/>
+              <a  href="tel:+254791555111">Whatsapp</a>
             </li>
           </ul>
         </div>
