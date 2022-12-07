@@ -23,11 +23,7 @@ function KidsPlayground() {
           </p>
 
           <p class="mt-3 text-gray-500 dark:text-gray-300">
-            Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar
-            posuere tellus erat quisque. Feugiat nibh tellus aliquam amet donec
-            ipsum eu. Ac aenean pulvinar posuere tellus erat quisque. Feugiat
-            nibh tellus aliquam amet donec ipsum eu. Ac aenean pulvinar posuere
-            tellus erat quisque
+          We also cater to our younger clients by offering a safe play area with bouncing castles, art activities and face painting on weekends.
           </p>
         </div>
       </div>

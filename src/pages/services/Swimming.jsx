@@ -22,11 +22,7 @@ function Swimming() {
             </p>
 
             <p class="mt-3 text-gray-500 dark:text-gray-300">
-              Feugiat nibh tellus aliquam amet donec ipsum eu. Ac aenean
-              pulvinar posuere tellus erat quisque. Feugiat nibh tellus aliquam
-              amet donec ipsum eu. Ac aenean pulvinar posuere tellus erat
-              quisque. Feugiat nibh tellus aliquam amet donec ipsum eu. Ac
-              aenean pulvinar posuere tellus erat quisque
+            Have Fun with the Family in the swimming pool. Jump in and swim and splash together. 
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import Logo from "../assets/images/LogoMain.png";
 import { motion } from "framer-motion";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
@@ -52,41 +53,39 @@ const Navbar = () => {
 
           <div className="flex flex-col justify-between pb-6 ">
             <div className="flex justify-between mb-10">
-            <motion.div
-              initial={{
-                x: -100,
-                opacity: 0,
-                scale: 0.5,
-              }}
-              animate={{
-                x: 0,
-                opacity: 1,
-                scale: 1,
-              }}
-              transition={{
-                duration: 1.5,
-              }}
-              className="flex flex-col text-left gap-3"
-            >
-              <div>
-                
-                <span className="font-bold">Phone: </span>
-                <a href="tel:+254 791 555 111">+254 791 555 111</a>
-              </div>
-              <div>
-                
-                <span className="font-bold">Email: </span>
-                <a href="mail:cedargarden.ltd@gmail.com">
-                  cedargarden.ltd@gmail.com
-                </a>
-              </div>
-              <div>
-                <p>
-                  <span className="font-bold">Location: </span>Kianjai, Meru
-                </p>
-              </div>
-            </motion.div>
-            
+              <motion.div
+                initial={{
+                  x: -100,
+                  opacity: 0,
+                  scale: 0.5,
+                }}
+                animate={{
+                  x: 0,
+                  opacity: 1,
+                  scale: 1,
+                }}
+                transition={{
+                  duration: 1.5,
+                }}
+                className="flex flex-col text-left gap-3"
+              >
+                <div>
+                  <span className="font-bold">Phone: </span>
+                  <a href="tel:+254 791 555 111">+254 791 555 111</a>
+                </div>
+                <div>
+                  <span className="font-bold">Email: </span>
+                  <a href="mail:cedargarden.ltd@gmail.com">
+                    cedargarden.ltd@gmail.com
+                  </a>
+                </div>
+                <div>
+                  <p>
+                    <span className="font-bold">Location: </span>Kianjai, Meru
+                  </p>
+                </div>
+              </motion.div>
+
               <motion.div
                 initial={{
                   x: 100,
@@ -103,13 +102,26 @@ const Navbar = () => {
                 }}
                 className="flex justify-evenly gap-8"
               >
-                <FaFacebook color="#287216" fontSize="1.5em" />
-                <FaTiktok color="#287216" fontSize="1.5em" />
-                <AiFillInstagram color="#287216" fontSize="1.5em" />
+                <a
+                  href="https://www.facebook.com/profile.php?id=100077381140421"
+                  target="_blank"
+                >
+                  <FaFacebook color="#287216" fontSize="1.5em" />
+                </a>
+                <a
+                  href="tel:+254791555111
+"
+                >
+                  <IoLogoWhatsapp color="#287216" fontSize="1.5em" />
+                </a>
+                <a
+                  href="https://www.instagram.com/cedargardensandhotel/"
+                  target="_blank"
+                >
+                  <AiFillInstagram color="#287216" fontSize="1.5em" />
+                </a>
               </motion.div>
             </div>
-            
-            
 
             <motion.div
               className="border-t"
@@ -334,9 +346,24 @@ const Navbar = () => {
               }}
               className="flex justify-between gap-8"
             >
-              <FaFacebook color="#287216" fontSize="1.5em" />
-              <FaTiktok color="#287216" fontSize="1.5em" />
-              <AiFillInstagram color="#287216" fontSize="1.5em" />
+              <a
+                href="https://www.facebook.com/profile.php?id=100077381140421"
+                target="_blank"
+              >
+                <FaFacebook color="#287216" fontSize="1.5em" />
+              </a>
+              <a
+                href="tel:+254791555111
+"
+              >
+                <IoLogoWhatsapp color="#287216" fontSize="1.5em" />
+              </a>
+              <a
+                href="https://www.instagram.com/cedargardensandhotel/"
+                target="_blank"
+              >
+                <AiFillInstagram color="#287216" fontSize="1.5em" />
+              </a>
             </motion.div>
           </div>
           <motion.div
