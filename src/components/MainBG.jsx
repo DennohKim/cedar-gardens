@@ -14,8 +14,8 @@ const MainBG = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }} 
           className="main-image bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')]  bg-no-repeat bg-cover bg-center h-72 flex justify-center">
-      <h2 className="text-center text-4xl font-jost text-white font-md tracking-[2rem] self-center hover:scale-105 hover:ease-in-out animate-pulse">
-        ABOUT US
+      <h2 className="font-bold text-center text-4xl font-jost text-white font-md tracking-[2rem] self-center hover:scale-105 hover:ease-in-out animate-pulse">
+        SERVICES
       </h2>
     </motion.div>
   </div>

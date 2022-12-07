@@ -7,12 +7,6 @@ function ContactForm() {
   return (
     <div className="font-jost container my-24 lg:px-6 mx-auto">
       <section className="mb-32 text-black-900">
-        <div className="flex justify-center">
-          <div className="text-center lg:max-w-3xl md:max-w-xl">
-            <h2 className="text-5xl font-bold mb-12 px-6">Contact us</h2>
-          </div>
-        </div>
-
         <div className="flex flex-wrap ">
           <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-6/12 px-3 lg:px-6">
             <div className="lg:mr-4 lg:w-10/12">
@@ -34,8 +28,9 @@ function ContactForm() {
                 <AiFillInstagram style={icons} />
                 <FaTiktok style={icons} />
               </div>
-              <div className="mt-40 ">
+              <div className="mt-40 relative overflow-hidden">
                 <img
+                  className="transform transition-all hover:scale-110"
                   src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135334/Cedar%20Hotel/Edited/IMG_7115_jw8cme.jpg"
                   alt="girrafe"
                 />
@@ -106,17 +101,17 @@ function ContactForm() {
                 </div>
                 {/* imgs */}
                 <div class="grid  ">
-                  <div class="lg:col-end-12 h-72">
+                  <div class="lg:col-end-12 h-72 relative overflow-hidden">
                     <img
-                      className="col-7"
+                      className="col-7 transform transition-all hover:scale-110"
                       src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
                       alt=""
                       srcset=""
                     />
                   </div>
-                  <div className="lg:col-start h-60  lg:pt-8">
+                  <div className="lg:col-start h-60  lg:pt-8 relative overflow-hidden">
                     <img
-                      className=""
+                      className="transform transition-all hover:scale-110"
                       src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
                       alt=""
                       srcset=""

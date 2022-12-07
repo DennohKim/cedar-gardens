@@ -93,13 +93,16 @@ const BarAndRestaurant = () => {
     <div>
       <Navbar />
       <MainBG />
-      <div className="w-[100%] justify-center flex flex-col-reverse items-center align-center">
-        <p className="font-cormorant font-bold uppercase text-4xl">
-          Todays Special
-        </p>
-        <p className="font-dancing text-3xl">Menu that fits you palatte</p>
+      <div className="w-full">
+
       </div>
-      <div className="w-[100%] p-auto grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-2">
+      <div className="w-[80%] mx-auto justify-center flex flex-col-reverse items-center align-center">
+        <p className="font-cormorant font-bold uppercase text-5xl pb-10">
+          Today's Special
+        </p>
+        <p className="font-dancing text-3xl pb-4">Menu that fits you palatte</p>
+      </div>
+      <div className="w-[80%] mx-auto grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-2">
         <div className="w-[100%] ">
           <motion.div
             initial={{
