@@ -98,7 +98,7 @@ const BarAndRestaurant = () => {
       </div>
       <div className="w-[80%] mx-auto justify-center flex flex-col-reverse items-center align-center">
         <p className="font-cormorant font-bold uppercase text-5xl pb-10">
-          Todays Special
+          Today's Special
         </p>
         <p className="font-dancing text-3xl pb-4">Menu that fits you palatte</p>
       </div>
