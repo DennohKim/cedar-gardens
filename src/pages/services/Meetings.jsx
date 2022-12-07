@@ -37,7 +37,7 @@ const Meetings = () => {
     transition={{duration: 0.5 }}
     whileInView={{ scaleX: 1,
       scaleY: 1 }}
-    viewport={{ once: true }} className='h-full w-full lg:h-[800px] rounded-lg  object-cover' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135261/Cedar%20Hotel/Edited/IMG_2718_davs8g.jpg' />
+    viewport={{ once: true }} className='h-full w-full lg:h-[800px] object-cover' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135261/Cedar%20Hotel/Edited/IMG_2718_davs8g.jpg' />
   <motion.div  initial={{
       scaleX: 0,
       scaleY: 0,
@@ -50,7 +50,7 @@ const Meetings = () => {
     <p className='text-1xl font-jost mt-5 sm:mb-[260px] md:mb-[15px]'> Friends are the family we choose, and at Cedar Gardens we help you make some extra-special memories with your friends. Share a meal, dance to the beat and take a selfie or 10! Do it all at Cedar Gardens.
               Toast to the beauty of life at Cedar Gardens. Be it bridal showers, baby showers, home-comings, company functions, private parties and weddings – we don’t take them for granted. Let us add the magic to your special moments in life!
             </p>
-  <img className='h-[40%] sm:w-full w-[90%] absolute bottom-0 right-0 left-8 sm:left-0 md:left-8 rounded-lg  object-cover' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135184/Cedar%20Hotel/Edited/IMG_2685_n2slab.jpg' />
+  <img className='h-[40%] sm:w-full w-[90%] absolute bottom-0 right-0 left-8 sm:left-0 md:left-8  object-cover' src='https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135329/Cedar%20Hotel/Edited/IMG_2759_zov87i.jpg' />
 
   </motion.div>
   </div>

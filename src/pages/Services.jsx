@@ -31,91 +31,91 @@ const Services = () => {
 
       <div className="">
         <div className="mx-10 sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 md:gap-6 lg:grid lg:grid-cols-3 lg:gap-8">
-          <div className="sm:h-5/6 sm:w-full sm:my-  md:h-3/4  lg:h-3/4 w-full">
+          <div className="sm:h-5/6 sm:w-full sm:my-  md:h-3/4  lg:h-3/4 w-full relative overflow-hidden">
             <img
-              className=" sm:h-full  sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
+              className=" sm:h-full object-cover sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
               alt="Bar and restaurant"
             />
-            <div className=" flex sm:justify-start sm:mx-10 lg:mx-auto -my-20 sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-24 lg:w-96 lg:h-20 ">
-              <div className=" bg-white px-4 mx-2  opacity-70 ">
-                <h1 className="font-bold">BAR AND RESTAURANT</h1>
-                <p>
+            <div className=" flex sm:justify-start sm:mx-10 lg:mx-auto -my-20 sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-24 lg:w-96 lg:h-20 z-10 ">
+              <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
+                <h1 className="font-bold font-jost">BAR AND RESTAURANT</h1>
+                <p className="font-jost">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:h-5/6 sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full">
+          <div className="sm:h-5/6 sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full relative overflow-hidden">
             <img
-              className=" sm:h-full sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
+              className="object-cover sm:h-full sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135261/Cedar%20Hotel/Edited/IMG_2718_davs8g.jpg"
               alt="Party and Events"
             />
             <div className=" flex sm:justify-start sm:mx-10 lg:mx-auto -my-20 sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-24 lg:w-96 lg:h-20 ">
-              <div className="  bg-white px-4 mx-2  opacity-70  ">
-                <h1 className="font-bold">PARTY AND EVENTS</h1>
-                <p>
+              <div className="  bg-white px-6 py-2 mx-2  opacity-70  ">
+                <h1 className="font-bold font-jost">PARTY AND EVENTS</h1>
+                <p className="font-jost">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full md:-my-20 lg:my-0">
+          <div className="relative overflow-hidden sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full md:-my-20 lg:my-0">
             <img
-              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
+              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-cover transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_2690_rlmeer.jpg"
               alt="Swimmming "
             />
             <div className=" flex sm:justify-start relative sm:bottom-20 md:bottom-20 lg:bottom-0 sm:mx-10 lg:mx-auto  lg:-my-20 sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-24 lg:w-96 lg:h-20  ">
-              <div className=" bg-white px-4 mx-2  opacity-70 ">
-                <h1 className="font-bold">SWIMMING</h1>
-                <p>
+              <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
+                <h1 className="font-bold font-jost">SWIMMING</h1>
+                <p className="font-jost">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full -my-20">
+          <div className="relative overflow-hidden sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full -my-20">
             <img
-              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
+              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-cover transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_7154_yy55dw.jpg"
               alt="Kids play Area"
             />
             <div className=" flex sm:justify-start relative bottom-20  sm:mx-10 lg:mx-auto sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-20 lg:w-96 lg:h-20 ">
-              <div className=" bg-white px-4 mx-2  opacity-70 ">
-                <h1 className="font-bold">KIDS PLAY AREA</h1>
-                <p>
+              <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
+                <h1 className="font-bold font-jost">KIDS PLAY AREA</h1>
+                <p className="font-jost">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full -my-20">
+          <div className="relative overflow-hidden sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full -my-20">
             <img
-              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
+              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-cover transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135258/Cedar%20Hotel/Edited/IMG_2723_ffgq32.jpg"
               alt="Meetings"
             />
             <div className=" flex sm:justify-start relative bottom-20 sm:mx-10 lg:mx-auto sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-24 lg:w-96 lg:h-20 ">
-              <div className=" bg-white px-4 mx-2  opacity-70 ">
-                <h1 className="font-bold">MEETINGS</h1>
-                <p>
+              <div className=" bg-white px-6 py-2 mx-2  opacity-70 ">
+                <h1 className="font-bold font-jost">MEETINGS</h1>
+                <p className="font-jost">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
             </div>
           </div>
-          <div className="sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full -my-20">
+          <div className="relative overflow-hidden sm:h-full sm:w-full sm:my-  md:h-3/4 lg:h-3/4 w-full -my-20">
             <img
-              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-fill transform transition-all hover:scale-110"
+              className="sm:h-4/5 sm:mx-auto md:h-full md:w-full lg:h-full lg:w-full object-cover transform transition-all hover:scale-110"
               src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135100/Cedar%20Hotel/Edited/IMG_7149_gyst5m.jpg"
               alt="Accomodation"
             />
             <div className=" flex sm:justify-start relative bottom-16 sm:mx-10 lg:mx-auto sm:h-20 sm:w-auto  sm:px-16 md:w-full md:h-24 lg:w-96 lg:h-20  ">
-              <div className=" bg-white px-4 mx-2   opacity-70 ">
-                <h1 className="font-bold">ACCOMODATION</h1>
-                <p>
+              <div className=" bg-white px-6 py-2 mx-2   opacity-70 ">
+                <h1 className="font-bold font-jost">ACCOMODATION</h1>
+                <p className="font-jost">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
                 </p>
               </div>
