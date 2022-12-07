@@ -28,8 +28,9 @@ function ContactForm() {
                 <AiFillInstagram style={icons} />
                 <FaTiktok style={icons} />
               </div>
-              <div className="mt-40 ">
+              <div className="mt-40 relative overflow-hidden">
                 <img
+                  className="transform transition-all hover:scale-110"
                   src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135334/Cedar%20Hotel/Edited/IMG_7115_jw8cme.jpg"
                   alt="girrafe"
                 />
@@ -100,17 +101,17 @@ function ContactForm() {
                 </div>
                 {/* imgs */}
                 <div class="grid  ">
-                  <div class="lg:col-end-12 h-72">
+                  <div class="lg:col-end-12 h-72 relative overflow-hidden">
                     <img
-                      className="col-7"
+                      className="col-7 transform transition-all hover:scale-110"
                       src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135075/Cedar%20Hotel/Edited/IMG_7140_vojgco.jpg"
                       alt=""
                       srcset=""
                     />
                   </div>
-                  <div className="lg:col-start h-60  lg:pt-8">
+                  <div className="lg:col-start h-60  lg:pt-8 relative overflow-hidden">
                     <img
-                      className=""
+                      className="transform transition-all hover:scale-110"
                       src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
                       alt=""
                       srcset=""
