@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 function ContactForm() {
   const icons = { fontSize: "40px", marginRight: "40px", color: "#287216" };
@@ -26,7 +27,7 @@ function ContactForm() {
               <div className="flex py-2">
                 <FaFacebook style={icons} />
                 <AiFillInstagram style={icons} />
-                <FaTiktok style={icons} />
+                <IoLogoWhatsapp style={icons} />
               </div>
               <div className="mt-40 relative overflow-hidden">
                 <img

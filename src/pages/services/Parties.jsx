@@ -53,13 +53,10 @@ const Parties = () => {
             </p>
             <p className="text-1xl font-jost mt-5 sm:mb-[260px] md:mb-[15px]">
               {" "}
-              Friends are the family we choose, and at Cedar Gardens we help you
-              make some extra-special memories with your friends. Share a meal,
-              dance to the beat and take a selfie or 10! Do it all at Cedar
-              Gardens. Toast to the beauty of life at Cedar Gardens. Be it
-              bridal showers, baby showers, home-comings, company functions,
-              private parties and weddings – we don’t take them for granted. Let
-              us add the magic to your special moments in life!
+              Celebrate your wonderful achievements at Cedar Gardens. Whether it’s a graduation, a company party or successful acquisition, we have just the right event packages to make you feel like the champion you already are!
+            <br/>  Toast to the beauty of life at Cedar Gardens. Be it bridal showers, baby showers, home-comings, company functions, private parties and weddings – we don’t take them for granted. Let us add the magic to your special moments in life!
+
+
             </p>
             <img
               className="h-[40%] sm:w-full w-[90%] absolute bottom-0 right-0 left-8 sm:left-0 md:left-8  object-cover"
