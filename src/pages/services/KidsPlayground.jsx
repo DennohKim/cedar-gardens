@@ -1,14 +1,19 @@
 import React from "react";
+import Footer from "../../components/Footer";
+import MainBG from "../../components/MainBG";
+import Navbar from "../../components/Navbar";
 
 function KidsPlayground() {
   return (
 
     <>
+    <Navbar />
+    <MainBG />
     <div class="container px-6 py-10 mx-auto font-jost">
-      <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+      <div class="mt-8 lg:-mx-6 lg:flex lg:items-center relative overflow-hidden">
         <img
-          class="object-cover w-full lg:mx-6 lg:w-1/2 h-72 lg:h-96"
-          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_7154_yy55dw.jpg"
+          class="object-cover transform transition-all hover:scale-110 w-full lg:mx-6 lg:w-1/2 h-72 lg:h-96"
+          src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670355436/Cedar%20Hotel/play%20area/play%20area/IMG_2711_mukcs4.jpg"
           alt=""
         />
 
@@ -29,37 +34,17 @@ function KidsPlayground() {
 
 {/* second place */}
       <div class="lg:flex lg:items-center justify-end">
-        <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+        <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 relative overflow-hidden ">
           <img
-            class="object-cover w-full lg:w-1/2 h-72 lg:h-96"
-            src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135111/Cedar%20Hotel/Edited/IMG_7154_yy55dw.jpg"
+            class="object-cover transform transition-all hover:scale-110 w-full lg:w-1/2 h-72 lg:h-96"
+            src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670355398/Cedar%20Hotel/play%20area/play%20area/IMG_2707_ufgrpb.jpg"
             alt=""
           />
         </div>
       </div>
     </div>
+    <Footer />
     </>
-
-    // first design
-    // // <div class="">
-    // <div className="relative w-100 container px-6 py-10 mx-auto font-jost">
-    //   <div
-    //     className="bg-cover bg-center h-auto bg-[url(https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135334/Cedar%20Hotel/Edited/IMG_7115_jw8cme.jpg)]"
-    //     style={{
-    //       height: "60vh",
-    //     }}
-    //   ></div>
-    //   <div className="absolute bottom-24 right-0 w-[60%] p-6 bg-slate-200	z-10">
-    //     <p>
-    //       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam omnis
-    //       molestiae obcaecati porro. Temporibus, incidunt necessitatibus ducimus
-    //       quas labore doloremque illo quam, minus ea voluptatum, a tenetur totam
-    //       exercitationem nobis.
-    //     </p>
-    //   </div>
-    // </div>
-
-
   );
 }
 
