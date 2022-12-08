@@ -471,8 +471,8 @@ class LandingPage extends Component {
               google={this.props.google}
               zoom={10}
               initialCenter={{
-                lat: 0.14588,
-                lng: 37.73208,
+                lat: 0.1455517,
+                lng: 37.7324069,
               }}
             >
               <Marker />
@@ -489,6 +489,16 @@ class LandingPage extends Component {
             <p className="font-jost mt-6  text-black text-1xl">
               Located along Meru Maua Road approximately 17 Kms from Meru town.
             </p>
+            <div className="mt-10 font-jost self-left">
+             <a
+              href={`https://www.google.com/maps/place/CEDAR+GARDEN+%26+HOTEL+MERU/@0.1450252,37.7301031,17z/data=!4m12!1m6!3m5!1s0x17883ba942febd9b:0x48e060ad362976fc!2sCedar+Garden+and+Hotel!8m2!3d0.1450252!4d37.7322918!3m4!1s0x0:0x178e7273f544aa04!8m2!3d0.1455517!4d37.7324069`}
+              className="py-2 px-8 bg-primary-color text-white"
+              target="_blank"
+              
+            >
+              Open in Google maps
+            </a>
+           </div>
           </div>
         </motion.div>
         <Footer />

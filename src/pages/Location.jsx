@@ -47,8 +47,8 @@ class Location extends Component {
             google={this.props.google}
             zoom={15}
             initialCenter={{
-              lat: 0.14588,
-              lng: 37.73208,
+              lat: 0.1455517,
+              lng: 37.7324069,
             }}
             style={style}
           >
