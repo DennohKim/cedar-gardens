@@ -71,7 +71,7 @@ const BarAndRestaurant = () => {
       url: "https://res.cloudinary.com/dqab6gg7d/image/upload/v1669350309/Cedar%20Hotel/Edited/saute_qpltcb.jpg",
     },
     {
-      name: "Roast Potatoes,url:",
+      name: "Roast Potatoes",
       url: "https://res.cloudinary.com/dqab6gg7d/image/upload/v1669350325/Cedar%20Hotel/Edited/potatoes_cpj5yp.jpg",
     },
   ]);
@@ -93,32 +93,30 @@ const BarAndRestaurant = () => {
     <div>
       <Navbar />
       <MainBG />
-      <div className="w-full">
-
-      </div>
+      <div className="w-full"></div>
       <div className="w-[80%] mx-auto justify-center flex flex-col-reverse items-center align-center">
-        <p className="font-cormorant font-bold uppercase text-5xl pb-10">
+        <p className="font-cormorant font-bold uppercase text-3xl md:text-4xl  pb-10">
           Today's Special
         </p>
-        <p className="font-dancing text-3xl pb-4">Menu that fits you palatte</p>
+        <p className="font-dancing  sm:text-2xl md:text-3xl pb-4">
+          Menu that fits you palatte
+        </p>
       </div>
-      <div className="w-[80%] mx-auto grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-2">
-        <div className="w-[100%] ">
+      <div className="sm:w-[95%] md:w-[80%] mx-auto grid space-x-4 px-2 md:grid-cols-2 sm:grid-cols-1">
+        <div className="flex flex-col">
           <motion.div
             initial={{
               y: -100,
               opacity: 0,
             }}
-            transition={{ duration: 1.2 ,delay:1}}
+            transition={{ duration: 1.2, delay: 1 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-          
-             exit={{ x: 500,opacity:0 }}
-          
-            class="dark:border-gray-700 ml-[10%]"
+            exit={{ x: 500, opacity: 0 }}
+            class="dark:border-gray-700"
           >
-            <ul class="flex -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400 border-b-2 border-gray-200">
-              <li class="mr-2 cursor-pointer">
+            <ul class="flex text-sm font-medium text-center text-gray-500 dark:text-gray-400 border-b-2 border-gray-200">
+              <li class=" cursor-pointer">
                 <a
                   id="tabs-contact-tab"
                   data-bs-toggle="pill"
@@ -128,7 +126,7 @@ const BarAndRestaurant = () => {
                   aria-selected="false"
                   className={
                     toggletab === 1
-                      ? "inline-flex p-4 uppercase font-jost rounded-t-lg  text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group text-[15px] transition-all ease-in-out delay-150 focus:border-green-700 border-b-2 border-green-700"
+                      ? "sm:text-sm md:text-base inline-flex p-4 uppercase font-jost rounded-t-lg  text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group text-[15px] transition-all ease-in-out delay-150 focus:border-green-700 border-b-2 border-green-700"
                       : "inline-flex p-4 uppercase font-jost rounded-t-lg border-b-2 text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group  focus:border-green-700"
                   }
                   onClick={() => {
@@ -138,7 +136,7 @@ const BarAndRestaurant = () => {
                   Food
                 </a>
               </li>
-              <li class="mr-2 cursor-pointer">
+              <li class="cursor-pointer">
                 <a
                   id="tabs-contact-tab"
                   data-bs-toggle="pill"
@@ -155,11 +153,11 @@ const BarAndRestaurant = () => {
                     setToggleTab(2);
                   }}
                 >
-                  Acompaniments
+                  Accompaniments
                 </a>
               </li>
 
-              <li class="mr-2 cursor-pointer">
+              <li class="cursor-pointer">
                 <a
                   id="tabs-contact-tab"
                   data-bs-toggle="pill"
@@ -169,7 +167,7 @@ const BarAndRestaurant = () => {
                   aria-selected="false"
                   className={
                     toggletab === 3
-                      ? "inline-flex p-4 uppercase font-jost rounded-t-lg  text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group  focus:border-green-700 border-b-2 border-green-700 text-[15px] transition-all ease-in-out delay-150"
+                      ? "inline-flex p-4 uppercase font-jost rounded-t-lg  text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group  focus:border-green-700 border-b-2 border-green-700 text-sm transition-all ease-in-out delay-150"
                       : "inline-flex p-4 uppercase font-jost rounded-t-lg border-b-2 text-black font-bold border-transparent hover:text-green-700 hover:border-green-700 dark:hover:text-green-700 group  focus:border-green-700"
                   }
                   onClick={() => {
@@ -182,132 +180,124 @@ const BarAndRestaurant = () => {
                 </a>
               </li>
             </ul>
-            
           </motion.div>
           <AnimatePresence>
-          <motion.div
-         key={toggletab}
-         initial={{
-           opacity: 0,
-         }}
-         transition={{ duration: 0.5 }}
-         whileInView={{ opacity: 1, x: 0 ,delay:0.5}}
-         viewport={{ once: false }}
-        
-           exit={{ opacity:0 }}
-            id="tabs-tabContent"
-            className={
-              toggletab === 1
-                ? "block tab-content p-4 lg:ml-[10%] md:ml-[10%] sm:ml-[5%] ml-[10%]"
-                : "hidden"
-            }
-          >
-            <div
-              class="tab-pane  show active"
-              id="tabs-home"
-              role="tabpanel"
-              aria-labelledby="tabs-home-tab"
+            <motion.div
+              key={toggletab}
+              initial={{
+                opacity: 0,
+              }}
+              transition={{ duration: 0.5 }}
+              whileInView={{ opacity: 1, x: 0, delay: 0.5 }}
+              viewport={{ once: false }}
+              exit={{ opacity: 0 }}
+              id="tabs-tabContent"
+              className={toggletab === 1 ? "block tab-content p-4" : "hidden"}
             >
-              <div className="w-[100%] ">
-                <div className=" w-[100%] lg:ml-[1%] sm:ml-[10%] md:ml-[10%] ml-[5%]">
-                  <ul>
-                    {food.map((item, index) => {
-                      return (
-                        <li
-                          onClick={() => {
-                            fireAnimation(item.url);
-                            setActiveItem(index);
-                          }}
-                          className={
-                                activeItem === index
-                                  ? "my-5 p-2 font-jost font-bold flex cursor-pointer  hover:text-3xl transition-all ease-in duration-75 adafasfafaf pt-2 border-none shadow-md rounded-full text-green-600"
-                                  : "my-5 font-jost  font-bold flex cursor-pointer hover:text-3xl transition-all ease-in duration-75"
-                              }
-                          key={item.name}
-                        >
-                          <img
-                            src={item.url}
-                            className="h-[40px] shadow-md  mr-3 w-[40px] rounded-full"
-                          />
-                          {item.name}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
+              <div
+                class="tab-pane  show active"
+                id="tabs-home"
+                role="tabpanel"
+                aria-labelledby="tabs-home-tab"
+              >
+                
+                  <div className=" w-[100%] ">
+                    <ul>
+                      {food.map((item, index) => {
+                        return (
+                          <li
+                            onClick={() => {
+                              fireAnimation(item.url);
+                              setActiveItem(index);
+                            }}
+                            className={
+                              activeItem === index
+                                ? "my-5 p-2 font-jost font-bold flex cursor-pointer  hover:text-3xl transition-all ease-in duration-75 adafasfafaf pt-2 border-none shadow-md rounded-full text-green-600"
+                                : "my-5 font-jost  font-bold flex cursor-pointer hover:text-3xl transition-all ease-in duration-75"
+                            }
+                            key={item.name}
+                          >
+                            <img
+                              src={item.url}
+                              className="h-[40px] shadow-md  mr-3 w-[40px] rounded-full"
+                            />
+                            {item.name}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                
               </div>
-            </div>
-            <div
-              class="tab-pane "
-              id="tabs-profile"
-              role="tabpanel"
-              aria-labelledby="tabs-profile-tab"
-            ></div>
-          </motion.div>
+              <div
+                class="tab-pane "
+                id="tabs-profile"
+                role="tabpanel"
+                aria-labelledby="tabs-profile-tab"
+              ></div>
+            </motion.div>
           </AnimatePresence>
           <AnimatePresence>
-          <motion.div
-          key={toggletab}
-                initial={{
-                  opacity: 0,
-                }}
-                transition={{ duration: 0.5 }}
-
-                whileInView={{ opacity: 1,delay:0.5}}
-                viewport={{ once: false }}
-                exit={{
-                  
-                  opacity: 0,
-                }}
-            id="tabs-tabContent"
-            className={
-              toggletab === 2
-                ? "block tab-content p-4 lg:ml-[10%] md:ml-[10%] sm:ml-[5%] ml-[10%]"
-                : "hidden"
-            }
-          >
-            <div
-              class="tab-pane  show active"
-              id="tabs-home"
-              role="tabpanel"
-              aria-labelledby="tabs-home-tab"
+            <motion.div
+              key={toggletab}
+              initial={{
+                opacity: 0,
+              }}
+              transition={{ duration: 0.5 }}
+              whileInView={{ opacity: 1, delay: 0.5 }}
+              viewport={{ once: false }}
+              exit={{
+                opacity: 0,
+              }}
+              id="tabs-tabContent"
+              className={
+                toggletab === 2
+                  ? "block tab-content p-4 "
+                  : "hidden"
+              }
             >
-              <div className="w-[100%] ">
-                <div className=" w-[100%] lg:ml-[1%] sm:ml-[10%] md:ml-[10%] ml-[5%]">
-                  <ul>
-                    {acompanments.map((item, index) => {
-                      return (
-                        <li
-                          onClick={() => {
-                            fireAnimation(item.url);
-                            setActiveItem(index);
-                          }}
-                          className={
-                            activeItem === index
-                              ? "my-5 p-2 font-jost font-bold flex cursor-pointer  hover:text-3xl transition-all ease-in duration-75 adafasfafaf pt-2 border-none shadow-md rounded-full text-green-600"
-                              : "my-5 font-jost  font-bold flex cursor-pointer hover:text-3xl transition-all ease-in duration-75"
-                          }
-                          key={item.name}
-                        >
-                          <img
-                            src={item.url}
-                            className="h-[40px] shadow-md  mr-3 w-[40px] rounded-full"
-                          />
-                          {item.name}
-                        </li>
-                      );
-                    })}
-                  </ul>
+              <div
+                class="tab-pane  show active"
+                id="tabs-home"
+                role="tabpanel"
+                aria-labelledby="tabs-home-tab"
+              >
+                
+                  <div className=" w-[100%] ">
+                    <ul>
+                      {acompanments.map((item, index) => {
+                        return (
+                          <li
+                            onClick={() => {
+                              fireAnimation(item.url);
+                              setActiveItem(index);
+                            }}
+                            className={
+                              activeItem === index
+                                ? "my-5 p-2 font-jost font-bold flex cursor-pointer  hover:text-3xl transition-all ease-in duration-75 adafasfafaf pt-2 border-none shadow-md rounded-full text-green-600"
+                                : "my-5 font-jost  font-bold flex cursor-pointer hover:text-3xl transition-all ease-in duration-75"
+                            }
+                            key={item.name}
+                          >
+                            <img
+                              src={item.url}
+                              className="h-[40px] shadow-md  mr-3 w-[40px] rounded-full"
+                            />
+                            {item.name}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  
                 </div>
               </div>
-            </div>
-            <div
-              class="tab-pane "
-              id="tabs-profile"
-              role="tabpanel"
-              aria-labelledby="tabs-profile-tab"
-            ></div>
-          </motion.div>
+              <div
+                class="tab-pane "
+                id="tabs-profile"
+                role="tabpanel"
+                aria-labelledby="tabs-profile-tab"
+              ></div>
+            </motion.div>
           </AnimatePresence>
           <AnimatePresence>
             <motion.div
@@ -318,13 +308,11 @@ const BarAndRestaurant = () => {
               transition={{ duration: 0.5 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false }}
-             
-                exit={{ opacity:0 }}
-            
+              exit={{ opacity: 0 }}
               id="tabs-tabContent"
               className={
                 toggletab === 3
-                  ? "block tab-content p-4 lg:ml-[10%] md:ml-[10%] sm:ml-[5%] ml-[10%] visible "
+                  ? "block tab-content p-4 visible "
                   : "hidden"
               }
             >
@@ -334,8 +322,8 @@ const BarAndRestaurant = () => {
                 role="tabpanel"
                 aria-labelledby="tabs-home-tab"
               >
-                <div className="w-[100%] ">
-                  <div className=" w-[100%] lg:ml-[1%] sm:ml-[10%] md:ml-[10%] ml-[5%]">
+                
+                  <div className=" w-[100%]">
                     <ul>
                       {cocktails.map((item, index) => {
                         return (
@@ -363,7 +351,7 @@ const BarAndRestaurant = () => {
                       })}
                     </ul>
                   </div>
-                </div>
+                
               </div>
               <div
                 class="tab-pane "
@@ -374,7 +362,7 @@ const BarAndRestaurant = () => {
             </motion.div>
           </AnimatePresence>
         </div>
-        <div className="w-[90%] col-span-2">
+        <div className="w-full ">
           <AnimatePresence>
             {animate && (
               <motion.img
@@ -386,7 +374,7 @@ const BarAndRestaurant = () => {
                   default: { duration: 0.2 },
                 }}
                 src={viewer}
-                className="h-[400px] m-10 max-w-[80%] object-cover rounded-lg"
+                className="h-[400px] object-cover rounded-lg"
               />
             )}
             <div

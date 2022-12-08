@@ -20,7 +20,7 @@ const Navbar = () => {
   let normalLink = "hover:opacity-50";
 
   return (
-    <header className="w-full pt-10">
+    <header className="w-full pt-6">
       <div className=" flex justify-between align-middle md:invisible w-5/6 mx-auto">
         <motion.img
           initial={{
@@ -70,18 +70,18 @@ const Navbar = () => {
                 className="flex flex-col text-left gap-3"
               >
                 <div>
-                  <span className="font-bold">Phone: </span>
-                  <a href="tel:+254 791 555 111">+254 791 555 111</a>
+                  <span className="sm:text-xs md:text-base font-bold">Phone: </span>
+                  <a className="sm:text-xs md:text-base" href="tel:+254 791 555 111">+254 791 555 111</a>
                 </div>
                 <div>
                   <span className="font-bold">Email: </span>
-                  <a href="mail:cedargarden.ltd@gmail.com">
+                  <a className="sm:text-sm md:text-base " href="mail:cedargarden.ltd@gmail.com">
                     cedargarden.ltd@gmail.com
                   </a>
                 </div>
                 <div>
-                  <p>
-                    <span className="font-bold">Location: </span>Kianjai, Meru
+                  <p className="sm:text-sm md:text-base ">
+                    <span className="sm:text-sm md:text-base font-bold">Location: </span>Kianjai, Meru
                   </p>
                 </div>
               </motion.div>
@@ -106,19 +106,19 @@ const Navbar = () => {
                   href="https://www.facebook.com/profile.php?id=100077381140421"
                   target="_blank"
                 >
-                  <FaFacebook color="#287216" fontSize="1.5em" />
+                  <FaFacebook color="#287216" fontSize="1.5rem" />
                 </a>
                 <a
                   href="tel:+254791555111
 "
                 >
-                  <IoLogoWhatsapp color="#287216" fontSize="1.5em" />
+                  <IoLogoWhatsapp color="#287216" fontSize="1.5rem" />
                 </a>
                 <a
                   href="https://www.instagram.com/cedargardensandhotel/"
                   target="_blank"
                 >
-                  <AiFillInstagram color="#287216" fontSize="1.5em" />
+                  <AiFillInstagram color="#287216" fontSize="1.5rem" />
                 </a>
               </motion.div>
             </div>

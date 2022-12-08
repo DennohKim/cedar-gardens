@@ -171,7 +171,7 @@ class LandingPage extends Component {
                   Our restaurants have exceptional food and drinks lists, professionally trained chefs and service-oriented waitstaff. 
                   </p>
                   <Link to="/services/barandrestaurant">
-                  <button className="py-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
+                  <button className="sm:text-sm md:text-base py-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
                     Learn More
                   </button></Link>
                   
