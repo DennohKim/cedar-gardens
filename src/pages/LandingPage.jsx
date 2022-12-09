@@ -448,7 +448,7 @@ class LandingPage extends Component {
           </div>
           <div className="mt-10 font-jost self-left">
              <Link
-              href="/gallery"
+              to="/gallery"
               className="py-2 px-8 bg-primary-color text-white"
             >
               See More
