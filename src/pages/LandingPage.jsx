@@ -24,15 +24,15 @@ class LandingPage extends Component {
             duration: 0.5,
             delay: 0.5,
           }}
-          className=" w-[100%] h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg')] bg-cover bg-center max-h-[573px] mt-2 justify-center text-center flex items-center home-background"
+          className=" w-full h-screen bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135357/Cedar%20Hotel/Edited/IMG_7119_rlfhmj.jpg')] bg-cover bg-center max-h-[573px] mt-2 justify-center text-center flex items-center home-background"
         >
-          <div className="h-[100%] w-[100%] overlay-color flex justify-center justify text-center items-center">
+          <div className="h-full w-full overlay-color flex justify-center justify text-center items-center">
             <p className="font-dancing text-white text-6xl  ">Cedar Gardens</p>
           </div>
         </motion.div>
-        <div className=" w-[100%] bg-white pt-[70px] mt-0 mx-auto flex justify-center items-center ">
+        <div className=" w-full bg-white pt-[70px] mt-0 mx-auto flex justify-center items-center ">
           <div className="grid mt-10 grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-2 w-[90%]    bg-white  xs:grid-cols-1">
-            <div className="w-[100%] justify-center items-center">
+            <div className="w-full justify-center items-center">
               <motion.p
                 initial={{ scaleX: 0, scaleY: 0.6, opacity: 0 }}
                 viewport={{ once: true }}
