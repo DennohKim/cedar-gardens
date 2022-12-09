@@ -1,9 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
 import { FaFacebook, FaTiktok } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
+import emailjs from "@emailjs/browser";
 
 function ContactForm() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_l66fkjb",
+        "template_d8dqpeh",
+        form.current,
+        "_txc7Qpth0kJ8iDOW"
+      )
+
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   const icons = { fontSize: "40px", marginRight: "40px", color: "#287216" };
   return (
     <div className="font-jost container my-24 lg:px-6 mx-auto">
@@ -43,10 +67,10 @@ function ContactForm() {
               DROP US A LINE
             </h1>
             <p className="py-10">
-              Feugiat nibh tellus aliquam amet donec ipsum Ac aenean pulvinar
-              posuere tellus erat quisque
+              Hey! We normally respond to messages within the hour. We'll be
+              with you shortly. Thank you!
             </p>
-            <form className="w-full">
+            <form ref={form} onSubmit={sendEmail} className="w-full">
               <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                   <label className="block  tracking-wide text-gray-700 text-x  mb-2">
@@ -55,6 +79,8 @@ function ContactForm() {
                   <input
                     className="appearance-none bg-transparent border-b border-black-900 w-full text-gray-700 mr-3 p-2 leading-tight focus:outline-none focus:bg-gray-200"
                     type="text"
+                    name="user_name"
+                    placeholder="Full Name"
                     aria-label="name"
                   />
                 </div>
@@ -65,6 +91,8 @@ function ContactForm() {
                   <input
                     className="appearance-none bg-transparent border-b border-black-900 w-full text-gray-700 mr-3 p-2 leading-tight focus:outline-none focus:bg-gray-200"
                     type="email"
+                    name="user_email"
+                    placeholder="you@example.com"
                     aria-label="email"
                   />
                 </div>
@@ -75,6 +103,8 @@ function ContactForm() {
                   <input
                     className="appearance-none bg-transparent border-b border-black-900 w-full text-gray-700 mr-3 p-2 leading-tight focus:outline-none focus:bg-gray-200"
                     type="text"
+                    name="user_phone"
+                    placeholder="0723 456 789"
                     aria-label="name"
                   />
                 </div>
@@ -85,6 +115,8 @@ function ContactForm() {
                   <input
                     className="appearance-none bg-transparent border-b border-black-900 w-full text-gray-700 mr-3 p-2 leading-tight focus:outline-none focus:bg-gray-200"
                     type="text"
+                    name="user_subject"
+                    placeholder="Subject"
                     aria-label="name"
                   />
                 </div>
@@ -96,9 +128,18 @@ function ContactForm() {
                     rows="10"
                     className="appearance-none bg-transparent border border-grey-900 w-full text-gray-700 mr-3 p-3 focus:bg-gray-200 leading-tight focus:outline-none"
                     type="text"
+                    name="user_message"
                     placeholder="Write your message...."
                     aria-label="name"
                   ></textarea>
+                </div>
+                <div className="w-full px-3 py-4 ">
+                  <button
+                    type="submit"
+                    className="hover:shadow-md py-2 px-8 justify-items-end bg-primary-color text-white"
+                  >
+                    Get in Touch
+                  </button>
                 </div>
                 {/* imgs */}
                 <div class="grid  ">
@@ -119,11 +160,6 @@ function ContactForm() {
                     />
                   </div>
                 </div>
-                {/* <div>
-                    </div> */}
-                {/* <div>
-                 
-                </div> */}
               </div>
             </form>
           </div>
