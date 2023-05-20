@@ -169,7 +169,7 @@ const Gallery = () => {
                 <div className="image-4 h-[630px] relative overflow-hidden">
                   <img
                     className="object-cover transform transition-all h-full w-full  hover:scale-110"
-                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg"
+                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
                     alt="garden image4"
                   />
                 </div>
@@ -206,6 +206,40 @@ const Gallery = () => {
                       alt="garden image3"
                     />
                   </div>
+                </div>
+              </div>
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 md:space-x-4 md:space-y-4">
+                <div className="grid grid-rows-2 sm:space-y-10 md:space-y-4">
+                  <div className="grid md:grid-cols-1 space-y-4 lg:grid-cols-2 lg:space-x-4">
+                    <div className="image-1 h-[300px] w-full relative overflow-hidden self-center ">
+                      <img
+                        className="object-cover transform transition-all w-full h-full hover:scale-110 "
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1684606622/Cedar%20Hotel/new/new/PHOTO-2023-05-10-10-40-12_trgkrl.jpg"
+                        alt="garden image1"
+                      />
+                    </div>
+                    <div className="image-2 h-[300px] relative overflow-hidden">
+                      <img
+                        className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1684606608/Cedar%20Hotel/new/new/PHOTO-2023-05-10-10-40-11_1_wc9zim.jpg"
+                        alt="garden image2"
+                      />
+                    </div>
+                  </div>
+                  <div className="image-3 h-full md:h-[300px]  w-full relative overflow-hidden">
+                    <img
+                      className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                      src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937405/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-11-41_1_madexl.jpg"
+                      alt="garden image3"
+                    />
+                  </div>
+                </div>
+                <div className="image-4 h-[630px] relative overflow-hidden">
+                  <img
+                    className="object-cover transform transition-all h-full w-full  hover:scale-110"
+                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937401/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-11-39_1_upism7.jpg"
+                    alt="garden image4"
+                  />
                 </div>
               </div>
             </div>
@@ -288,13 +322,81 @@ const Gallery = () => {
                   />
                 </div>
               </div>
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 space-x-4 sm:space-y-4 md:space-y-0 ">
+                <div className="image-4 h-[630px] relative overflow-hidden">
+                  <img
+                    className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937381/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-11-40_1_r48dhz.jpg"
+                    alt="garden image4"
+                  />
+                </div>
+                <div className="grid grid-rows-2 space-y-4">
+                  <div className="grid md:grid-cols-1 space-y-4 lg:grid-cols-2 lg:space-x-4">
+                    <div className="image-1 h-[300px] w-full relative overflow-hidden self-center">
+                      <img
+                        className="object-cover transform transition-all h-full w-full hover:scale-110  "
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937391/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-11-38_vzm6pe.jpg"
+                        alt="garden image1"
+                      />
+                    </div>
+                    <div className="image-2 h-[300px] relative overflow-hidden">
+                      <img
+                        className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937398/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-11-40_rleits.jpg"
+                        alt="garden image2"
+                      />
+                    </div>
+                  </div>
+                  <div className="image-3 h-[300px] w-full relative overflow-hidden">
+                    <img
+                      className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                      src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937394/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-11-39_2_l7zksr.jpg"
+                      alt="garden image3"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* Rooms */}
           <div className={toggletab === 4 ? "block my-8" : "hidden"}>
-            <h1 className="text-center uppercase m-20 text-5xl font-jost font-bold ">
-              coming soon
-            </h1>
+            {/* Swimming Pool */}
+            <div className="grid gird-rows-2 mx-10 sm:space-y-10 md:space-y-4">
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 md:space-x-4 md:space-y-4">
+                <div className="grid grid-rows-2 sm:space-y-10 md:space-y-4">
+                  <div className="grid md:grid-cols-1 space-y-4 lg:grid-cols-2 lg:space-x-4">
+                    <div className="image-1 h-[300px] w-full relative overflow-hidden self-center ">
+                      <img
+                        className="object-cover transform transition-all w-full h-full hover:scale-110 "
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1684606645/Cedar%20Hotel/new/new/PHOTO-2023-05-10-10-40-17_bitbn8.jpg"
+                        alt="garden image1"
+                      />
+                    </div>
+                    <div className="image-2 h-[300px] relative overflow-hidden">
+                      <img
+                        className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                        src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1684606623/Cedar%20Hotel/new/new/PHOTO-2023-05-10-10-40-16_ihxet2.jpg"
+                        alt="garden image2"
+                      />
+                    </div>
+                  </div>
+                  <div className="image-3 h-full md:h-[300px]  w-full relative overflow-hidden">
+                    <img
+                      className="object-cover transform transition-all h-full w-full hover:scale-110 "
+                      src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937369/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-29-49_tpqlze.jpg"
+                      alt="garden image3"
+                    />
+                  </div>
+                </div>
+                <div className="image-4 h-[630px] relative overflow-hidden">
+                  <img
+                    className="object-cover transform transition-all h-full w-full  hover:scale-110"
+                    src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937365/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-29-49_1_lcyx12.jpg"
+                    alt="garden image4"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

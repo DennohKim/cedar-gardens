@@ -123,7 +123,7 @@ class LandingPage extends Component {
                   delay: 0.5,
                 }}
                 className="h-4/5 w-full object-cover "
-                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135321/Cedar%20Hotel/Edited/IMG_2756_vo2tbu.jpg"
+                src="https://res.cloudinary.com/dqab6gg7d/image/upload/v1670937379/Cedar%20Hotel/new/new/PHOTO-2022-12-11-16-38-55_zchfh2.jpg"
               />
             </div>
           </div>
@@ -168,13 +168,14 @@ class LandingPage extends Component {
                     Restaurants
                   </p>
                   <p className="pt-[6%] font-semibold-600 text-black font-jost">
-                  Our restaurants have exceptional food and drinks lists, professionally trained chefs and service-oriented waitstaff. 
+                    Our restaurants have exceptional food and drinks lists,
+                    professionally trained chefs and service-oriented waitstaff.
                   </p>
                   <Link to="/services/barandrestaurant">
-                  <button className="sm:text-sm md:text-base py-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
-                    Learn More
-                  </button></Link>
-                  
+                    <button className="sm:text-sm md:text-base py-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </motion.div>
               <motion.div
@@ -217,15 +218,16 @@ class LandingPage extends Component {
                     Party Events
                   </p>
                   <p className="pt-[6%] px-3 font-semibold-600 text-black font-jost">
-                  Our dining facilities are designed for private celebrations, corporate events, informal meetings and special occasions.
-                  Our event coordinators can customize your special occasions to create an unforgettable event. 
+                    Our dining facilities are designed for private celebrations,
+                    corporate events, informal meetings and special occasions.
+                    Our event coordinators can customize your special occasions
+                    to create an unforgettable event.
                   </p>
                   <Link to="/services/parties">
-                  <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
-                    Learn More
-                  </button>
+                    <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
+                      Learn More
+                    </button>
                   </Link>
-                  
                 </div>
               </motion.div>
               <motion.div
@@ -251,7 +253,7 @@ class LandingPage extends Component {
             duration: 0.5,
             delay: 0.5,
           }}
-          className="lg:mt-[626px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
+          className="lg:mt-[626px] lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135118/Cedar%20Hotel/Edited/IMG_7139_rsfj6t.jpg')] bg-cover bg-center justify-center text-center  items-center home-background"
         >
           <div className="w-[100%] h-[100%] overlay-color flex items-center align-center justify-center">
             <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
@@ -259,13 +261,14 @@ class LandingPage extends Component {
                 Meetings
               </p>
               <p className="pt-[6%] font-semibold-600 text-white font-jost">
-              Sample our outdoor spaces for special meetings, or to catch up on your favorite sports on large HD TV screens.
+                Sample our outdoor spaces for special meetings, or to catch up
+                on your favorite sports on large HD TV screens.
               </p>
               <Link to="/services/meetings">
-              <button className="p-5 mt-[10%] uppercase w-[80%] mx-auto bg-gray-300 tracking-[0.8rem] font-jost">
-                Learn More
-              </button></Link>
-              
+                <button className="p-5 mt-[10%] uppercase w-[80%] mx-auto bg-gray-300 tracking-[0.8rem] font-jost">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </motion.div>
@@ -287,14 +290,14 @@ class LandingPage extends Component {
                 Swimming
               </p>
               <p className="pt-[6%] px-3 font-semibold-600 text-black font-jost">
-              Have Fun with the Family in the swimming pool. Jump in and swim and splash together. 
-
+                Have Fun with the Family in the swimming pool. Jump in and swim
+                and splash together.
               </p>
               <Link to="/services/swimming">
-              <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
-                Learn More
-              </button></Link>
-              
+                <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
           <div className="h-[400px] bg-white">
@@ -317,14 +320,15 @@ class LandingPage extends Component {
                 Kids Play Area
               </p>
               <p className="pt-[6%] px-3 font-semibold-600 text-black font-jost">
-              We also cater to our younger clients by offering a safe play area with bouncing castles, art activities and face painting on weekends.
+                We also cater to our younger clients by offering a safe play
+                area with bouncing castles, art activities and face painting on
+                weekends.
               </p>
               <Link to="/services/kidsplayground">
-              <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
-                Learn More
-              </button>
+                <button className="p-5 mt-[10%] uppercase w-[75%] bg-gray-300 tracking-[0.8rem] font-jost">
+                  Learn More
+                </button>
               </Link>
-              
             </div>
           </div>
           <div className="h-[400px]   bg-cover bg-center">
@@ -339,7 +343,7 @@ class LandingPage extends Component {
             duration: 0.5,
             delay: 0.5,
           }}
-          className=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] max-h-[573px]  mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
+          className=" lg:w-[70%] md:w-[70%] sm:w-[100%] xs:w-[100%] mx-auto h-screen flex bg-[url('https://res.cloudinary.com/dqab6gg7d/image/upload/v1668135255/Cedar%20Hotel/Edited/IMG_2741_gpgowb.jpg')] bg-cover bg-center max-h-[573px]  justify-center text-center  items-center home-background"
         >
           <div className="h-[100%] w-[100%] overlay-color justify-center text-center flex items-center">
             <div className="lg:w-[40%] md:w-[60%] sm:w-[70%] xs:w-[80%] h-[40%] mt-[1%] align-center ">
@@ -347,14 +351,14 @@ class LandingPage extends Component {
                 Accomodation
               </p>
               <p className="pt-[6%] font-semibold-600 text-white font-jost">
-              Fantastic hotel in Meru. Good location, Clean Rooms and some of the best staff in any hotel you've been to.
+                Fantastic hotel in Meru. Good location, Clean Rooms and some of
+                the best staff in any hotel you've been to.
               </p>
               <Link to="/services/accomodation">
-              <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-[0.8rem] font-jost">
-                Learn More
-              </button>
+                <button className="p-5 mt-[10%] uppercase w-[80%] bg-gray-300 tracking-[0.8rem] font-jost">
+                  Learn More
+                </button>
               </Link>
-             
             </div>
           </div>
         </motion.div>
@@ -447,13 +451,13 @@ class LandingPage extends Component {
             </motion.div>
           </div>
           <div className="mt-10 font-jost self-left">
-             <Link
+            <Link
               to="/gallery"
               className="py-2 px-8 bg-primary-color text-white"
             >
               See More
             </Link>
-           </div>
+          </div>
         </div>
         <motion.div
           initial={{ scaleX: 0, scaleY: 0.6 }}
@@ -480,9 +484,7 @@ class LandingPage extends Component {
           </div>
 
           <div className="z-20">
-            <p className="font-dancing mt-10  text-black text-3xl">
-              Location
-            </p>
+            <p className="font-dancing mt-10  text-black text-3xl">Location</p>
             <p className="font-cormorant font-bold mt-6  text-black text-3xl uppercase">
               Getting there
             </p>
@@ -490,15 +492,14 @@ class LandingPage extends Component {
               Located along Meru Maua Road approximately 17 Kms from Meru town.
             </p>
             <div className="mt-10 font-jost self-left">
-             <a
-              href={`https://www.google.com/maps/place/CEDAR+GARDEN+%26+HOTEL+MERU/@0.1450252,37.7301031,17z/data=!4m12!1m6!3m5!1s0x17883ba942febd9b:0x48e060ad362976fc!2sCedar+Garden+and+Hotel!8m2!3d0.1450252!4d37.7322918!3m4!1s0x0:0x178e7273f544aa04!8m2!3d0.1455517!4d37.7324069`}
-              className="py-2 px-8 bg-primary-color text-white"
-              target="_blank"
-              
-            >
-              Open in Google maps
-            </a>
-           </div>
+              <a
+                href={`https://www.google.com/maps/place/CEDAR+GARDEN+%26+HOTEL+MERU/@0.1450252,37.7301031,17z/data=!4m12!1m6!3m5!1s0x17883ba942febd9b:0x48e060ad362976fc!2sCedar+Garden+and+Hotel!8m2!3d0.1450252!4d37.7322918!3m4!1s0x0:0x178e7273f544aa04!8m2!3d0.1455517!4d37.7324069`}
+                className="py-2 px-8 bg-primary-color text-white"
+                target="_blank"
+              >
+                Open in Google maps
+              </a>
+            </div>
           </div>
         </motion.div>
         <Footer />
